@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Go to Invoicing Settings
+
+Choose Invoicing type
+
+If choosing the selected one is not in the list, then notify &quot;Sorry, no matching options&quot;
+
+Choose year and month
+
+Click button update</description>
+   <name>IP-017 ( Invoice Setting )</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>44c1ce05-af4e-4941-8be4-7e948f853f1a</testCaseGuid>
+</TestCaseEntity>

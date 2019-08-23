@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>IP-001 (Login hit berkali kali)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bf44218e-2fe6-4623-8dc0-93cf43d8d014</testCaseGuid>
+   <variable>
+      <defaultValue>'aaa@gmail.com'</defaultValue>
+      <description></description>
+      <id>d9c4e10f-b602-4846-8c70-b3e4f2f5ad40</id>
+      <masked>false</masked>
+      <name>Email</name>
+   </variable>
+   <variable>
+      <defaultValue>'123445656'</defaultValue>
+      <description></description>
+      <id>b4e021d9-1018-4a8e-be40-5e2bd7c8f6a3</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>- login tenant</description>
+   <name>IP-011 ( add property)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>dd752c36-3b83-4838-97cb-c1637ea64307</testCaseGuid>
+</TestCaseEntity>
