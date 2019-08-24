@@ -1,5 +1,6 @@
 import com.kms.katalon.core.main.TestCaseMain
 import com.kms.katalon.core.logging.KeywordLogger
+import groovy.lang.MissingPropertyException
 import com.kms.katalon.core.testcase.TestCaseBinding
 import com.kms.katalon.core.driver.internal.DriverCleanerCollector
 import com.kms.katalon.core.model.FailureHandling
@@ -14,9 +15,7 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.m
 DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.cucumber.keyword.internal.CucumberDriverCleaner())
 
 
-RunConfiguration.setExecutionSettingFile('/var/folders/48/kr7c_wm56yv1cf1gxw52c3340000gp/T/Katalon/Test Cases/IP-001 (Login)/20190824_062912/execution.properties')
+RunConfiguration.setExecutionSettingFile('/var/folders/48/kr7c_wm56yv1cf1gxw52c3340000gp/T/Katalon/Include/features/IP-001 ( Login).feature/20190824_150623/execution.properties')
 
 TestCaseMain.beforeStart()
-
-        TestCaseMain.runTestCase('Test Cases/IP-001 (Login)', new TestCaseBinding('Test Cases/IP-001 (Login)',[:]), FailureHandling.STOP_ON_FAILURE , true, true)
-    
+TestCaseMain.runFeatureFile('Include/features/IP-001 ( Login).feature')

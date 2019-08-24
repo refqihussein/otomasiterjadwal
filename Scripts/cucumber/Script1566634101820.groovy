@@ -12,30 +12,6 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
-import org.junit.runner.RunWith as RunWith
-import cucumber.api.CucumberOptions as CucumberOptions
-import cucumber.api.junit.Cucumber as Cucumber
 
-WebUI.openBrowser('http://kamisa.web.iprop-dev.com/login')
+CucumberKW.runFeatureFile('IP-001 (Login).Feature')
 
-WebUI.delay(1)
-
-WebUI.setText(findTestObject('Page_iPropio - Login/input_Email_email'), 'didinonpqcms@gmail.com')
-
-WebUI.delay(1)
-
-WebUI.takeScreenshot('/Users/refqi/Documents/webippro/4.png')
-
-WebUI.setText(findTestObject('Page_iPropio - Login/input_Password_password'), 'testing12345')
-
-WebUI.delay(1)
-
-WebUI.takeScreenshot('/Users/refqi/Documents/webippro/5.png')
-
-WebUI.click(findTestObject('Page_iPropio - Login/button_Login Now'))
-
-WebUI.delay(1)
-
-WebUI.takeScreenshot('/Users/refqi/Documents/webippro/7.png')
-
-CucumberKW.runWithCucumberRunner(MyCucumberRunner.class)
