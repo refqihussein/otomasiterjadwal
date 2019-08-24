@@ -13,6 +13,12 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+import org.junit.runner.RunWith;
+import cucumber.api.CucumberOptions;
+import cucumber.api.junit.Cucumber;
+
+
+
 WebUI.openBrowser('http://kamisa.web.iprop-dev.com/login')
 
 WebUI.delay(1)
@@ -34,4 +40,14 @@ WebUI.click(findTestObject('Page_iPropio - Login/button_Login Now'))
 WebUI.delay(1)
 
 WebUI.takeScreenshot('/Users/refqi/Documents/webippro/7.png')
+
+(Cucumber.class)
+@CucumberOptions(features="/Users/refqi/git/otomasiterjadwal/ipropio/Reports/IP-001 (Login)", glue="", plugin = ["pretty",
+					 "junit:*/cucumber.xml",
+					 "html:*",
+					 "json:*/cucumber.json"])
+public class MyCucumberRunner {
+}
+
+
 
