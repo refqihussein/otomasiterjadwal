@@ -38,4 +38,3 @@ WebUI.delay(1)
 
 WebUI.takeScreenshot('/Users/refqi/Documents/webippro/7.png')
 
-CucumberKW.runWithCucumberRunner(MyCucumberRunner.class)
