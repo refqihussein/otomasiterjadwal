@@ -36,6 +36,24 @@ def static "com.testwithhari.katalon.plugins.Browserstack.getCurrentTestRunSessi
     (new com.testwithhari.katalon.plugins.Browserstack()).getCurrentTestRunSessionID()
 }
 
+def static "kms.turing.katalon.plugins.visualtesting.ImageComparison.areMatched"(
+    	String expectedImgPath	
+     , 	String actualImgPath	) {
+    (new kms.turing.katalon.plugins.visualtesting.ImageComparison()).areMatched(
+        	expectedImgPath
+         , 	actualImgPath)
+}
+
+def static "kms.turing.katalon.plugins.visualtesting.ImageComparison.areMatched"(
+    	String expectedImgPath	
+     , 	String actualImgPath	
+     , 	FailureHandling flowControl	) {
+    (new kms.turing.katalon.plugins.visualtesting.ImageComparison()).areMatched(
+        	expectedImgPath
+         , 	actualImgPath
+         , 	flowControl)
+}
+
 def static "kms.turing.katalon.plugins.visualtesting.ImageComparison.verifyMatchBaseline"(
     	String filename	
      , 	String baselinePath	
@@ -72,24 +90,6 @@ def static "kms.turing.katalon.plugins.visualtesting.ImageComparison.getDifferen
          , 	actual)
 }
 
-def static "kms.turing.katalon.plugins.visualtesting.ImageComparison.areMatched"(
-    	String expectedImgPath	
-     , 	String actualImgPath	
-     , 	FailureHandling flowControl	) {
-    (new kms.turing.katalon.plugins.visualtesting.ImageComparison()).areMatched(
-        	expectedImgPath
-         , 	actualImgPath
-         , 	flowControl)
-}
-
-def static "kms.turing.katalon.plugins.visualtesting.ImageComparison.areMatched"(
-    	String expectedImgPath	
-     , 	String actualImgPath	) {
-    (new kms.turing.katalon.plugins.visualtesting.ImageComparison()).areMatched(
-        	expectedImgPath
-         , 	actualImgPath)
-}
-
 def static "test.testclass.uploadFile"(
     	TestObject to	
      , 	String filePath	) {
@@ -116,20 +116,20 @@ def static "com.kms.katalon.keyword.uploadfile.UploadFile.uploadFileUsingRobot"(
 
 def static "com.katalon.plugin.keyword.angularjs.DropdownKeywords.selectOptionByIndex"(
     	TestObject dropdownObject	
-     , 	Object range	) {
-    (new com.katalon.plugin.keyword.angularjs.DropdownKeywords()).selectOptionByIndex(
-        	dropdownObject
-         , 	range)
-}
-
-def static "com.katalon.plugin.keyword.angularjs.DropdownKeywords.selectOptionByIndex"(
-    	TestObject dropdownObject	
      , 	Object range	
      , 	boolean isSelect	) {
     (new com.katalon.plugin.keyword.angularjs.DropdownKeywords()).selectOptionByIndex(
         	dropdownObject
          , 	range
          , 	isSelect)
+}
+
+def static "com.katalon.plugin.keyword.angularjs.DropdownKeywords.selectOptionByIndex"(
+    	TestObject dropdownObject	
+     , 	Object range	) {
+    (new com.katalon.plugin.keyword.angularjs.DropdownKeywords()).selectOptionByIndex(
+        	dropdownObject
+         , 	range)
 }
 
 def static "com.katalon.plugin.keyword.angularjs.DropdownKeywords.selectAllOption"(
@@ -164,22 +164,26 @@ def static "com.katalon.plugin.keyword.angularjs.DropdownKeywords.verifyOptionIt
          , 	listItemNames)
 }
 
-def static "com.katalon.plugin.keyword.angularjs.DropdownKeywords.selectOptionByName"(
+def static "com.katalon.plugin.keyword.angularjs.DropdownKeywords.selectSubOptionByName"(
     	TestObject dropdownObject	
-     , 	String listItemNames	
-     , 	boolean isSelect	) {
-    (new com.katalon.plugin.keyword.angularjs.DropdownKeywords()).selectOptionByName(
+     , 	String optionGroupName	
+     , 	String listItemNames	) {
+    (new com.katalon.plugin.keyword.angularjs.DropdownKeywords()).selectSubOptionByName(
         	dropdownObject
-         , 	listItemNames
-         , 	isSelect)
+         , 	optionGroupName
+         , 	listItemNames)
 }
 
-def static "com.katalon.plugin.keyword.angularjs.DropdownKeywords.selectOptionByName"(
+def static "com.katalon.plugin.keyword.angularjs.DropdownKeywords.selectSubOptionByName"(
     	TestObject dropdownObject	
-     , 	String listItemNames	) {
-    (new com.katalon.plugin.keyword.angularjs.DropdownKeywords()).selectOptionByName(
+     , 	String optionGroupName	
+     , 	String listItemNames	
+     , 	boolean isSelect	) {
+    (new com.katalon.plugin.keyword.angularjs.DropdownKeywords()).selectSubOptionByName(
         	dropdownObject
-         , 	listItemNames)
+         , 	optionGroupName
+         , 	listItemNames
+         , 	isSelect)
 }
 
 def static "com.katalon.plugin.keyword.angularjs.DropdownKeywords.selectSubOptionByIndex"(
@@ -204,26 +208,22 @@ def static "com.katalon.plugin.keyword.angularjs.DropdownKeywords.selectSubOptio
          , 	range)
 }
 
-def static "com.katalon.plugin.keyword.angularjs.DropdownKeywords.selectSubOptionByName"(
+def static "com.katalon.plugin.keyword.angularjs.DropdownKeywords.selectOptionByName"(
     	TestObject dropdownObject	
-     , 	String optionGroupName	
-     , 	String listItemNames	) {
-    (new com.katalon.plugin.keyword.angularjs.DropdownKeywords()).selectSubOptionByName(
-        	dropdownObject
-         , 	optionGroupName
-         , 	listItemNames)
-}
-
-def static "com.katalon.plugin.keyword.angularjs.DropdownKeywords.selectSubOptionByName"(
-    	TestObject dropdownObject	
-     , 	String optionGroupName	
      , 	String listItemNames	
      , 	boolean isSelect	) {
-    (new com.katalon.plugin.keyword.angularjs.DropdownKeywords()).selectSubOptionByName(
+    (new com.katalon.plugin.keyword.angularjs.DropdownKeywords()).selectOptionByName(
         	dropdownObject
-         , 	optionGroupName
          , 	listItemNames
          , 	isSelect)
+}
+
+def static "com.katalon.plugin.keyword.angularjs.DropdownKeywords.selectOptionByName"(
+    	TestObject dropdownObject	
+     , 	String listItemNames	) {
+    (new com.katalon.plugin.keyword.angularjs.DropdownKeywords()).selectOptionByName(
+        	dropdownObject
+         , 	listItemNames)
 }
 
 def static "com.katalon.plugin.keyword.angularjs.DropdownKeywords.verifyOptionSelectedByName"(
@@ -238,14 +238,6 @@ def static "com.kms.katalon.keyword.draganddrop.DragAndDropKeywords.dragAndDrop"
     	TestObject sourceObject	
      , 	TestObject destinationObject	) {
     (new com.kms.katalon.keyword.draganddrop.DragAndDropKeywords()).dragAndDrop(
-        	sourceObject
-         , 	destinationObject)
-}
-
-def static "com.kms.katalon.keyword.draganddrop.DragAndDropKeywords.dragAndDropHtml5"(
-    	TestObject sourceObject	
-     , 	TestObject destinationObject	) {
-    (new com.kms.katalon.keyword.draganddrop.DragAndDropKeywords()).dragAndDropHtml5(
         	sourceObject
          , 	destinationObject)
 }
@@ -266,6 +258,14 @@ def static "com.kms.katalon.keyword.draganddrop.DragAndDropKeywords.dragAndDropJ
     	TestObject sourceObject	
      , 	TestObject destinationObject	) {
     (new com.kms.katalon.keyword.draganddrop.DragAndDropKeywords()).dragAndDropJquery(
+        	sourceObject
+         , 	destinationObject)
+}
+
+def static "com.kms.katalon.keyword.draganddrop.DragAndDropKeywords.dragAndDropHtml5"(
+    	TestObject sourceObject	
+     , 	TestObject destinationObject	) {
+    (new com.kms.katalon.keyword.draganddrop.DragAndDropKeywords()).dragAndDropHtml5(
         	sourceObject
          , 	destinationObject)
 }
@@ -315,17 +315,53 @@ def static "com.testwithhari.katalon.plugins.Gmail.readLatestEMailBodyContent"(
 }
 
 def static "kms.turing.katalon.plugins.visualtesting.ScreenCapture.takeScreenshot"(
-    	String filename	) {
-    (new kms.turing.katalon.plugins.visualtesting.ScreenCapture()).takeScreenshot(
-        	filename)
-}
-
-def static "kms.turing.katalon.plugins.visualtesting.ScreenCapture.takeScreenshot"(
     	String filename	
      , 	FailureHandling flowControl	) {
     (new kms.turing.katalon.plugins.visualtesting.ScreenCapture()).takeScreenshot(
         	filename
          , 	flowControl)
+}
+
+def static "kms.turing.katalon.plugins.visualtesting.ScreenCapture.takeScreenshot"(
+    	String filename	) {
+    (new kms.turing.katalon.plugins.visualtesting.ScreenCapture()).takeScreenshot(
+        	filename)
+}
+
+def static "kms.turing.katalon.plugins.visualtesting.ScreenCapture.takeCuttingScreenshot"(
+    	String filename	
+     , 	int headerToCut	
+     , 	int footerToCut	
+     , 	FailureHandling flowControl	) {
+    (new kms.turing.katalon.plugins.visualtesting.ScreenCapture()).takeCuttingScreenshot(
+        	filename
+         , 	headerToCut
+         , 	footerToCut
+         , 	flowControl)
+}
+
+def static "kms.turing.katalon.plugins.visualtesting.ScreenCapture.takeCuttingScreenshot"(
+    	String filename	
+     , 	int headerToCut	
+     , 	int footerToCut	) {
+    (new kms.turing.katalon.plugins.visualtesting.ScreenCapture()).takeCuttingScreenshot(
+        	filename
+         , 	headerToCut
+         , 	footerToCut)
+}
+
+def static "kms.turing.katalon.plugins.visualtesting.ScreenCapture.takeEntirePageScreenshot"(
+    	String filename	
+     , 	FailureHandling flowControl	) {
+    (new kms.turing.katalon.plugins.visualtesting.ScreenCapture()).takeEntirePageScreenshot(
+        	filename
+         , 	flowControl)
+}
+
+def static "kms.turing.katalon.plugins.visualtesting.ScreenCapture.takeEntirePageScreenshot"(
+    	String filename	) {
+    (new kms.turing.katalon.plugins.visualtesting.ScreenCapture()).takeEntirePageScreenshot(
+        	filename)
 }
 
 def static "kms.turing.katalon.plugins.visualtesting.ScreenCapture.takeWebElementScreenshot"(
@@ -334,6 +370,16 @@ def static "kms.turing.katalon.plugins.visualtesting.ScreenCapture.takeWebElemen
     (new kms.turing.katalon.plugins.visualtesting.ScreenCapture()).takeWebElementScreenshot(
         	object
          , 	filename)
+}
+
+def static "kms.turing.katalon.plugins.visualtesting.ScreenCapture.takeWebElementScreenshot"(
+    	TestObject object	
+     , 	String filename	
+     , 	int timeout	) {
+    (new kms.turing.katalon.plugins.visualtesting.ScreenCapture()).takeWebElementScreenshot(
+        	object
+         , 	filename
+         , 	timeout)
 }
 
 def static "kms.turing.katalon.plugins.visualtesting.ScreenCapture.takeWebElementScreenshot"(
@@ -348,46 +394,12 @@ def static "kms.turing.katalon.plugins.visualtesting.ScreenCapture.takeWebElemen
          , 	flowControl)
 }
 
-def static "kms.turing.katalon.plugins.visualtesting.ScreenCapture.takeWebElementScreenshot"(
-    	TestObject object	
-     , 	String filename	
-     , 	int timeout	) {
-    (new kms.turing.katalon.plugins.visualtesting.ScreenCapture()).takeWebElementScreenshot(
-        	object
-         , 	filename
-         , 	timeout)
-}
-
-def static "kms.turing.katalon.plugins.visualtesting.ScreenCapture.baselineImage"(
+def static "kms.turing.katalon.plugins.visualtesting.ScreenCapture.takeScalingScreenshot"(
     	String filename	
-     , 	String baselineDir	) {
-    (new kms.turing.katalon.plugins.visualtesting.ScreenCapture()).baselineImage(
+     , 	float dpr	) {
+    (new kms.turing.katalon.plugins.visualtesting.ScreenCapture()).takeScalingScreenshot(
         	filename
-         , 	baselineDir)
-}
-
-def static "kms.turing.katalon.plugins.visualtesting.ScreenCapture.baselineImage"(
-    	String filename	
-     , 	String baselineDir	
-     , 	FailureHandling flowControl	) {
-    (new kms.turing.katalon.plugins.visualtesting.ScreenCapture()).baselineImage(
-        	filename
-         , 	baselineDir
-         , 	flowControl)
-}
-
-def static "kms.turing.katalon.plugins.visualtesting.ScreenCapture.takeEntirePageScreenshot"(
-    	String filename	) {
-    (new kms.turing.katalon.plugins.visualtesting.ScreenCapture()).takeEntirePageScreenshot(
-        	filename)
-}
-
-def static "kms.turing.katalon.plugins.visualtesting.ScreenCapture.takeEntirePageScreenshot"(
-    	String filename	
-     , 	FailureHandling flowControl	) {
-    (new kms.turing.katalon.plugins.visualtesting.ScreenCapture()).takeEntirePageScreenshot(
-        	filename
-         , 	flowControl)
+         , 	dpr)
 }
 
 def static "kms.turing.katalon.plugins.visualtesting.ScreenCapture.takeScalingScreenshot"(
@@ -400,34 +412,22 @@ def static "kms.turing.katalon.plugins.visualtesting.ScreenCapture.takeScalingSc
          , 	flowControl)
 }
 
-def static "kms.turing.katalon.plugins.visualtesting.ScreenCapture.takeScalingScreenshot"(
+def static "kms.turing.katalon.plugins.visualtesting.ScreenCapture.baselineImage"(
     	String filename	
-     , 	float dpr	) {
-    (new kms.turing.katalon.plugins.visualtesting.ScreenCapture()).takeScalingScreenshot(
-        	filename
-         , 	dpr)
-}
-
-def static "kms.turing.katalon.plugins.visualtesting.ScreenCapture.takeCuttingScreenshot"(
-    	String filename	
-     , 	int headerToCut	
-     , 	int footerToCut	) {
-    (new kms.turing.katalon.plugins.visualtesting.ScreenCapture()).takeCuttingScreenshot(
-        	filename
-         , 	headerToCut
-         , 	footerToCut)
-}
-
-def static "kms.turing.katalon.plugins.visualtesting.ScreenCapture.takeCuttingScreenshot"(
-    	String filename	
-     , 	int headerToCut	
-     , 	int footerToCut	
+     , 	String baselineDir	
      , 	FailureHandling flowControl	) {
-    (new kms.turing.katalon.plugins.visualtesting.ScreenCapture()).takeCuttingScreenshot(
+    (new kms.turing.katalon.plugins.visualtesting.ScreenCapture()).baselineImage(
         	filename
-         , 	headerToCut
-         , 	footerToCut
+         , 	baselineDir
          , 	flowControl)
+}
+
+def static "kms.turing.katalon.plugins.visualtesting.ScreenCapture.baselineImage"(
+    	String filename	
+     , 	String baselineDir	) {
+    (new kms.turing.katalon.plugins.visualtesting.ScreenCapture()).baselineImage(
+        	filename
+         , 	baselineDir)
 }
 
 def static "kms.turing.katalon.plugins.visualtesting.ScreenCapture.takeElementScreenshotIgnoringAreas"(
