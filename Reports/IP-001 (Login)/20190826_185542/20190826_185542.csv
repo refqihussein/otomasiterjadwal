@@ -1,0 +1,15 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+IP-001 (Login),Chrome 76.0.3809.100,Login,2019-08-26 18:55:51,2019-08-26 18:57:34,1m - 42.524s,PASSED
+,,,,,,
+Test Cases/IP-001 (Login),Chrome 76.0.3809.100,,2019-08-26 18:55:52,2019-08-26 18:57:28,1m - 36.566s,PASSED
+"openBrowser(""http://kamisa.web.iprop-dev.com/login"")",Chrome 76.0.3809.100,,2019-08-26 18:55:52,2019-08-26 18:56:13,20.699s,PASSED
+delay(1),Chrome 76.0.3809.100,,2019-08-26 18:56:13,2019-08-26 18:56:14,1.179s,PASSED
+"setText(findTestObject(""Page_iPropio - Login/input_Email_email""), ""didinonpqcms@gmail.com"")",Chrome 76.0.3809.100,,2019-08-26 18:56:14,2019-08-26 18:56:36,21.482s,PASSED
+delay(1),Chrome 76.0.3809.100,,2019-08-26 18:56:36,2019-08-26 18:56:37,1.152s,PASSED
+"takeScreenshot(""/Users/refqi/Documents/webippro/4.png"")",Chrome 76.0.3809.100,,2019-08-26 18:56:37,2019-08-26 18:56:43,5.968s,PASSED
+"setText(findTestObject(""Page_iPropio - Login/input_Password_password""), ""testing12345"")",Chrome 76.0.3809.100,,2019-08-26 18:56:43,2019-08-26 18:57:04,20.975s,PASSED
+delay(1),Chrome 76.0.3809.100,,2019-08-26 18:57:04,2019-08-26 18:57:05,1.128s,PASSED
+"takeScreenshot(""/Users/refqi/Documents/webippro/5.png"")",Chrome 76.0.3809.100,,2019-08-26 18:57:05,2019-08-26 18:57:11,5.933s,PASSED
+"click(findTestObject(""Page_iPropio - Login/button_Login Now""))",Chrome 76.0.3809.100,,2019-08-26 18:57:11,2019-08-26 18:57:21,10.471s,PASSED
+delay(1),Chrome 76.0.3809.100,,2019-08-26 18:57:21,2019-08-26 18:57:22,1.147s,PASSED
+"takeScreenshot(""/Users/refqi/Documents/webippro/7.png"")",Chrome 76.0.3809.100,,2019-08-26 18:57:22,2019-08-26 18:57:28,5.664s,PASSED

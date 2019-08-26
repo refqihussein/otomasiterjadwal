@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+IP-001 (Login),Chrome 76.0.3809.100,Login,2019-08-26 19:05:49,2019-08-26 19:06:36,47.163s,FAILED
+,,,,,,
+Test Cases/IP-001 (Login),Chrome 76.0.3809.100,,2019-08-26 19:05:49,2019-08-26 19:06:30,41.460s,FAILED
+"openBrowser(""http://kamisa.web.iprop-dev.com/login"")",Chrome 76.0.3809.100,,2019-08-26 19:05:49,2019-08-26 19:06:09,19.396s,PASSED
+delay(1),Chrome 76.0.3809.100,,2019-08-26 19:06:09,2019-08-26 19:06:10,1.178s,PASSED
+"setText(findTestObject(""Page_iPropio - Login/input_Email_email""), ""didinonpqcms@gmail.com"")",Chrome 76.0.3809.100,,2019-08-26 19:06:10,2019-08-26 19:06:30,20.449s,FAILED
