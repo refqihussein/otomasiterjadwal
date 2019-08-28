@@ -22,6 +22,10 @@ def static "com.testwithhari.katalon.plugins.Browserstack.updateTestName"(
          , 	TestName)
 }
 
+def static "com.testwithhari.katalon.plugins.Browserstack.getCurrentTestRunSessionID"() {
+    (new com.testwithhari.katalon.plugins.Browserstack()).getCurrentTestRunSessionID()
+}
+
 def static "com.testwithhari.katalon.plugins.Browserstack.updateTestStatusAndReason"(
     	String sessionID	
      , 	String testStatus	
@@ -32,8 +36,22 @@ def static "com.testwithhari.katalon.plugins.Browserstack.updateTestStatusAndRea
          , 	reasonForFailure)
 }
 
-def static "com.testwithhari.katalon.plugins.Browserstack.getCurrentTestRunSessionID"() {
-    (new com.testwithhari.katalon.plugins.Browserstack()).getCurrentTestRunSessionID()
+def static "kms.turing.katalon.plugins.visualtesting.ImageComparison.verifyMatchBaseline"(
+    	String filename	
+     , 	String baselinePath	
+     , 	FailureHandling flowControl	) {
+    (new kms.turing.katalon.plugins.visualtesting.ImageComparison()).verifyMatchBaseline(
+        	filename
+         , 	baselinePath
+         , 	flowControl)
+}
+
+def static "kms.turing.katalon.plugins.visualtesting.ImageComparison.verifyMatchBaseline"(
+    	String filename	
+     , 	String baselinePath	) {
+    (new kms.turing.katalon.plugins.visualtesting.ImageComparison()).verifyMatchBaseline(
+        	filename
+         , 	baselinePath)
 }
 
 def static "kms.turing.katalon.plugins.visualtesting.ImageComparison.areMatched"(
@@ -54,21 +72,13 @@ def static "kms.turing.katalon.plugins.visualtesting.ImageComparison.areMatched"
          , 	flowControl)
 }
 
-def static "kms.turing.katalon.plugins.visualtesting.ImageComparison.verifyMatchBaseline"(
-    	String filename	
-     , 	String baselinePath	) {
-    (new kms.turing.katalon.plugins.visualtesting.ImageComparison()).verifyMatchBaseline(
-        	filename
-         , 	baselinePath)
-}
-
-def static "kms.turing.katalon.plugins.visualtesting.ImageComparison.verifyMatchBaseline"(
-    	String filename	
-     , 	String baselinePath	
+def static "kms.turing.katalon.plugins.visualtesting.ImageComparison.getDifferenceRatio"(
+    	String expected	
+     , 	String actual	
      , 	FailureHandling flowControl	) {
-    (new kms.turing.katalon.plugins.visualtesting.ImageComparison()).verifyMatchBaseline(
-        	filename
-         , 	baselinePath
+    (new kms.turing.katalon.plugins.visualtesting.ImageComparison()).getDifferenceRatio(
+        	expected
+         , 	actual
          , 	flowControl)
 }
 
@@ -78,16 +88,6 @@ def static "kms.turing.katalon.plugins.visualtesting.ImageComparison.getDifferen
     (new kms.turing.katalon.plugins.visualtesting.ImageComparison()).getDifferenceRatio(
         	expected
          , 	actual)
-}
-
-def static "kms.turing.katalon.plugins.visualtesting.ImageComparison.getDifferenceRatio"(
-    	String expected	
-     , 	String actual	
-     , 	FailureHandling flowControl	) {
-    (new kms.turing.katalon.plugins.visualtesting.ImageComparison()).getDifferenceRatio(
-        	expected
-         , 	actual
-         , 	flowControl)
 }
 
 def static "test.testclass.uploadFile"(
@@ -146,6 +146,24 @@ def static "com.katalon.plugin.keyword.angularjs.DropdownKeywords.selectAllOptio
          , 	isSelect)
 }
 
+def static "com.katalon.plugin.keyword.angularjs.DropdownKeywords.selectOptionByName"(
+    	TestObject dropdownObject	
+     , 	String listItemNames	) {
+    (new com.katalon.plugin.keyword.angularjs.DropdownKeywords()).selectOptionByName(
+        	dropdownObject
+         , 	listItemNames)
+}
+
+def static "com.katalon.plugin.keyword.angularjs.DropdownKeywords.selectOptionByName"(
+    	TestObject dropdownObject	
+     , 	String listItemNames	
+     , 	boolean isSelect	) {
+    (new com.katalon.plugin.keyword.angularjs.DropdownKeywords()).selectOptionByName(
+        	dropdownObject
+         , 	listItemNames
+         , 	isSelect)
+}
+
 def static "com.katalon.plugin.keyword.angularjs.DropdownKeywords.verifyOptionItemsStatus"(
     	TestObject dropdownObject	
      , 	String listItemNames	) {
@@ -164,34 +182,6 @@ def static "com.katalon.plugin.keyword.angularjs.DropdownKeywords.verifyOptionIt
          , 	expectedStatus)
 }
 
-def static "com.katalon.plugin.keyword.angularjs.DropdownKeywords.selectOptionByName"(
-    	TestObject dropdownObject	
-     , 	String listItemNames	
-     , 	boolean isSelect	) {
-    (new com.katalon.plugin.keyword.angularjs.DropdownKeywords()).selectOptionByName(
-        	dropdownObject
-         , 	listItemNames
-         , 	isSelect)
-}
-
-def static "com.katalon.plugin.keyword.angularjs.DropdownKeywords.selectOptionByName"(
-    	TestObject dropdownObject	
-     , 	String listItemNames	) {
-    (new com.katalon.plugin.keyword.angularjs.DropdownKeywords()).selectOptionByName(
-        	dropdownObject
-         , 	listItemNames)
-}
-
-def static "com.katalon.plugin.keyword.angularjs.DropdownKeywords.selectSubOptionByIndex"(
-    	TestObject dropdownObject	
-     , 	String optionGroupName	
-     , 	Object range	) {
-    (new com.katalon.plugin.keyword.angularjs.DropdownKeywords()).selectSubOptionByIndex(
-        	dropdownObject
-         , 	optionGroupName
-         , 	range)
-}
-
 def static "com.katalon.plugin.keyword.angularjs.DropdownKeywords.selectSubOptionByIndex"(
     	TestObject dropdownObject	
      , 	String optionGroupName	
@@ -204,14 +194,14 @@ def static "com.katalon.plugin.keyword.angularjs.DropdownKeywords.selectSubOptio
          , 	isSelect)
 }
 
-def static "com.katalon.plugin.keyword.angularjs.DropdownKeywords.selectSubOptionByName"(
+def static "com.katalon.plugin.keyword.angularjs.DropdownKeywords.selectSubOptionByIndex"(
     	TestObject dropdownObject	
      , 	String optionGroupName	
-     , 	String listItemNames	) {
-    (new com.katalon.plugin.keyword.angularjs.DropdownKeywords()).selectSubOptionByName(
+     , 	Object range	) {
+    (new com.katalon.plugin.keyword.angularjs.DropdownKeywords()).selectSubOptionByIndex(
         	dropdownObject
          , 	optionGroupName
-         , 	listItemNames)
+         , 	range)
 }
 
 def static "com.katalon.plugin.keyword.angularjs.DropdownKeywords.selectSubOptionByName"(
@@ -224,6 +214,16 @@ def static "com.katalon.plugin.keyword.angularjs.DropdownKeywords.selectSubOptio
          , 	optionGroupName
          , 	listItemNames
          , 	isSelect)
+}
+
+def static "com.katalon.plugin.keyword.angularjs.DropdownKeywords.selectSubOptionByName"(
+    	TestObject dropdownObject	
+     , 	String optionGroupName	
+     , 	String listItemNames	) {
+    (new com.katalon.plugin.keyword.angularjs.DropdownKeywords()).selectSubOptionByName(
+        	dropdownObject
+         , 	optionGroupName
+         , 	listItemNames)
 }
 
 def static "com.katalon.plugin.keyword.angularjs.DropdownKeywords.verifyOptionSelectedByName"(
@@ -250,6 +250,14 @@ def static "com.kms.katalon.keyword.draganddrop.DragAndDropKeywords.dragAndDropH
          , 	destinationObject)
 }
 
+def static "com.kms.katalon.keyword.draganddrop.DragAndDropKeywords.dragAndDropJquery"(
+    	TestObject sourceObject	
+     , 	TestObject destinationObject	) {
+    (new com.kms.katalon.keyword.draganddrop.DragAndDropKeywords()).dragAndDropJquery(
+        	sourceObject
+         , 	destinationObject)
+}
+
 def static "com.kms.katalon.keyword.draganddrop.DragAndDropKeywords.dragAndDropBy"(
     	TestObject sourceObject	
      , 	TestObject destinationObject	
@@ -260,14 +268,6 @@ def static "com.kms.katalon.keyword.draganddrop.DragAndDropKeywords.dragAndDropB
          , 	destinationObject
          , 	xOffset
          , 	yOffset)
-}
-
-def static "com.kms.katalon.keyword.draganddrop.DragAndDropKeywords.dragAndDropJquery"(
-    	TestObject sourceObject	
-     , 	TestObject destinationObject	) {
-    (new com.kms.katalon.keyword.draganddrop.DragAndDropKeywords()).dragAndDropJquery(
-        	sourceObject
-         , 	destinationObject)
 }
 
 def static "com.testwithhari.katalon.plugins.Gmail.deleteAllEMails"(
@@ -346,6 +346,70 @@ def static "kms.turing.katalon.plugins.visualtesting.ScreenCapture.baselineImage
          , 	baselineDir)
 }
 
+def static "kms.turing.katalon.plugins.visualtesting.ScreenCapture.takeCuttingScreenshot"(
+    	String filename	
+     , 	int headerToCut	
+     , 	int footerToCut	
+     , 	FailureHandling flowControl	) {
+    (new kms.turing.katalon.plugins.visualtesting.ScreenCapture()).takeCuttingScreenshot(
+        	filename
+         , 	headerToCut
+         , 	footerToCut
+         , 	flowControl)
+}
+
+def static "kms.turing.katalon.plugins.visualtesting.ScreenCapture.takeCuttingScreenshot"(
+    	String filename	
+     , 	int headerToCut	
+     , 	int footerToCut	) {
+    (new kms.turing.katalon.plugins.visualtesting.ScreenCapture()).takeCuttingScreenshot(
+        	filename
+         , 	headerToCut
+         , 	footerToCut)
+}
+
+def static "kms.turing.katalon.plugins.visualtesting.ScreenCapture.takeScalingScreenshot"(
+    	String filename	
+     , 	float dpr	
+     , 	FailureHandling flowControl	) {
+    (new kms.turing.katalon.plugins.visualtesting.ScreenCapture()).takeScalingScreenshot(
+        	filename
+         , 	dpr
+         , 	flowControl)
+}
+
+def static "kms.turing.katalon.plugins.visualtesting.ScreenCapture.takeScalingScreenshot"(
+    	String filename	
+     , 	float dpr	) {
+    (new kms.turing.katalon.plugins.visualtesting.ScreenCapture()).takeScalingScreenshot(
+        	filename
+         , 	dpr)
+}
+
+def static "kms.turing.katalon.plugins.visualtesting.ScreenCapture.takeEntirePageScreenshot"(
+    	String filename	
+     , 	FailureHandling flowControl	) {
+    (new kms.turing.katalon.plugins.visualtesting.ScreenCapture()).takeEntirePageScreenshot(
+        	filename
+         , 	flowControl)
+}
+
+def static "kms.turing.katalon.plugins.visualtesting.ScreenCapture.takeEntirePageScreenshot"(
+    	String filename	) {
+    (new kms.turing.katalon.plugins.visualtesting.ScreenCapture()).takeEntirePageScreenshot(
+        	filename)
+}
+
+def static "kms.turing.katalon.plugins.visualtesting.ScreenCapture.takeWebElementScreenshot"(
+    	TestObject object	
+     , 	String filename	
+     , 	int timeout	) {
+    (new kms.turing.katalon.plugins.visualtesting.ScreenCapture()).takeWebElementScreenshot(
+        	object
+         , 	filename
+         , 	timeout)
+}
+
 def static "kms.turing.katalon.plugins.visualtesting.ScreenCapture.takeWebElementScreenshot"(
     	TestObject object	
      , 	String filename	
@@ -364,70 +428,6 @@ def static "kms.turing.katalon.plugins.visualtesting.ScreenCapture.takeWebElemen
     (new kms.turing.katalon.plugins.visualtesting.ScreenCapture()).takeWebElementScreenshot(
         	object
          , 	filename)
-}
-
-def static "kms.turing.katalon.plugins.visualtesting.ScreenCapture.takeWebElementScreenshot"(
-    	TestObject object	
-     , 	String filename	
-     , 	int timeout	) {
-    (new kms.turing.katalon.plugins.visualtesting.ScreenCapture()).takeWebElementScreenshot(
-        	object
-         , 	filename
-         , 	timeout)
-}
-
-def static "kms.turing.katalon.plugins.visualtesting.ScreenCapture.takeCuttingScreenshot"(
-    	String filename	
-     , 	int headerToCut	
-     , 	int footerToCut	) {
-    (new kms.turing.katalon.plugins.visualtesting.ScreenCapture()).takeCuttingScreenshot(
-        	filename
-         , 	headerToCut
-         , 	footerToCut)
-}
-
-def static "kms.turing.katalon.plugins.visualtesting.ScreenCapture.takeCuttingScreenshot"(
-    	String filename	
-     , 	int headerToCut	
-     , 	int footerToCut	
-     , 	FailureHandling flowControl	) {
-    (new kms.turing.katalon.plugins.visualtesting.ScreenCapture()).takeCuttingScreenshot(
-        	filename
-         , 	headerToCut
-         , 	footerToCut
-         , 	flowControl)
-}
-
-def static "kms.turing.katalon.plugins.visualtesting.ScreenCapture.takeEntirePageScreenshot"(
-    	String filename	
-     , 	FailureHandling flowControl	) {
-    (new kms.turing.katalon.plugins.visualtesting.ScreenCapture()).takeEntirePageScreenshot(
-        	filename
-         , 	flowControl)
-}
-
-def static "kms.turing.katalon.plugins.visualtesting.ScreenCapture.takeEntirePageScreenshot"(
-    	String filename	) {
-    (new kms.turing.katalon.plugins.visualtesting.ScreenCapture()).takeEntirePageScreenshot(
-        	filename)
-}
-
-def static "kms.turing.katalon.plugins.visualtesting.ScreenCapture.takeScalingScreenshot"(
-    	String filename	
-     , 	float dpr	) {
-    (new kms.turing.katalon.plugins.visualtesting.ScreenCapture()).takeScalingScreenshot(
-        	filename
-         , 	dpr)
-}
-
-def static "kms.turing.katalon.plugins.visualtesting.ScreenCapture.takeScalingScreenshot"(
-    	String filename	
-     , 	float dpr	
-     , 	FailureHandling flowControl	) {
-    (new kms.turing.katalon.plugins.visualtesting.ScreenCapture()).takeScalingScreenshot(
-        	filename
-         , 	dpr
-         , 	flowControl)
 }
 
 def static "kms.turing.katalon.plugins.visualtesting.ScreenCapture.takeWebElementsScreenshot"(
@@ -474,18 +474,6 @@ def static "kms.turing.katalon.plugins.visualtesting.ScreenCapture.takeElementSc
     	TestObject object	
      , 	String filename	
      , 	java.util.List<TestObject> ignoreObjs	
-     , 	int timeout	) {
-    (new kms.turing.katalon.plugins.visualtesting.ScreenCapture()).takeElementScreenshotIgnoringAreas(
-        	object
-         , 	filename
-         , 	ignoreObjs
-         , 	timeout)
-}
-
-def static "kms.turing.katalon.plugins.visualtesting.ScreenCapture.takeElementScreenshotIgnoringAreas"(
-    	TestObject object	
-     , 	String filename	
-     , 	java.util.List<TestObject> ignoreObjs	
      , 	int timeout	
      , 	FailureHandling flowControl	) {
     (new kms.turing.katalon.plugins.visualtesting.ScreenCapture()).takeElementScreenshotIgnoringAreas(
@@ -494,4 +482,16 @@ def static "kms.turing.katalon.plugins.visualtesting.ScreenCapture.takeElementSc
          , 	ignoreObjs
          , 	timeout
          , 	flowControl)
+}
+
+def static "kms.turing.katalon.plugins.visualtesting.ScreenCapture.takeElementScreenshotIgnoringAreas"(
+    	TestObject object	
+     , 	String filename	
+     , 	java.util.List<TestObject> ignoreObjs	
+     , 	int timeout	) {
+    (new kms.turing.katalon.plugins.visualtesting.ScreenCapture()).takeElementScreenshotIgnoringAreas(
+        	object
+         , 	filename
+         , 	ignoreObjs
+         , 	timeout)
 }
