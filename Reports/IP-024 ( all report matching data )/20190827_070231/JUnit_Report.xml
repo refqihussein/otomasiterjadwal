@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="IP-024 ( all report matching data )" time="204" tests="1" failures="0" errors="0">
+   <testsuite name="IP-024 ( all report matching data )" tests="1" failures="0" errors="0" time="204" timestamp="2019-08-27 07:02:46" hostname="refqi - refqi" id="Test Suites/IP-024 ( all report matching data )">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/refqi/git/otomasiterjadwal/ipropio/Reports/IP-024 ( all report matching data )/20190827_070231"/>
+         <property name="logFiles" value="/Users/refqi/git/otomasiterjadwal/ipropio/Reports/IP-024 ( all report matching data )/20190827_070231/execution0.log"/>
+         <property name="attachments" value="/Users/refqi/Documents/webippro/4.png, /Users/refqi/Documents/webippro/5.png, /Users/refqi/Documents/webippro/7.png, /Users/refqi/git/otomasiterjadwal/ipropio/Reports/IP-024 ( all report matching data )/20190827_070231/1566864281862.png, /Users/refqi/git/otomasiterjadwal/ipropio/Reports/IP-024 ( all report matching data )/20190827_070231/1566864308024.png, /Users/refqi/git/otomasiterjadwal/ipropio/Reports/IP-024 ( all report matching data )/20190827_070231/1566864323838.png, /Users/refqi/git/otomasiterjadwal/ipropio/Reports/IP-024 ( all report matching data )/20190827_070231/1566864339557.png, /Users/refqi/git/otomasiterjadwal/ipropio/Reports/IP-024 ( all report matching data )/20190827_070231/1566864355245.png, /Users/refqi/git/otomasiterjadwal/ipropio/Reports/IP-024 ( all report matching data )/20190827_070231/1566864360628.png"/>
+         <property name="hostName" value="refqi - refqi"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+         <property name="browser" value="Chrome 76.0.3809.100"/>
+         <property name="hostAddress" value="192.168.43.195"/>
+         <property name="sessionId" value="e000f396ff0c01f9a1d7216a7f49740b"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/IP-024 ( all Report matching data )" classname="Test Cases/IP-024 ( all Report matching data )" status="PASSED">
+         <system-out><![CDATA[2019-08-27 07:02:46 - [TEST_CASE][PASSED] - Test Cases/IP-024 ( all Report matching data ): Test Cases/IP-024 ( all Report matching data )
+
+2019-08-27 07:02:47 - [TEST_STEP][PASSED] - callTestCase(findTestCase("IP-001 (Login tenant)"), ["Email":"aaa@gmail.com", "Password":"123445656"], STOP_ON_FAILURE): Call Test Case 'Test Cases/IP-001 (Login tenant)' successfully
+
+2019-08-27 07:02:47 - [TEST_CASE][PASSED] - Test Cases/IP-001 (Login tenant): Test Cases/IP-001 (Login tenant)
+
+2019-08-27 07:02:48 - [TEST_STEP][PASSED] - openBrowser("http://kamisa.web.iprop-dev.com/login"): Browser is opened with url: 'http://kamisa.web.iprop-dev.com/login'
+
+2019-08-27 07:02:49 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-08-27 07:02:49 - [MESSAGE][INFO] - Action delay is set to 5 seconds
+
+2019-08-27 07:03:11 - [MESSAGE][PASSED] - Browser is opened with url: 'http://kamisa.web.iprop-dev.com/login'
+
+2019-08-27 07:03:11 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-08-27 07:03:13 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-27 07:03:13 - [TEST_STEP][PASSED] - setText(findTestObject("Page_iPropio - Login/input_Email_email"), "rikaj@getnada.com"): Text 'rikaj@getnada.com' is set on object 'Object Repository/Page_iPropio - Login/input_Email_email'
+
+2019-08-27 07:03:35 - [MESSAGE][PASSED] - Text 'rikaj@getnada.com' is set on object 'Object Repository/Page_iPropio - Login/input_Email_email'
+
+2019-08-27 07:03:35 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-08-27 07:03:37 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-27 07:03:37 - [TEST_STEP][PASSED] - takeScreenshot("/Users/refqi/Documents/webippro/4.png"): Taking screenshot successfully
+
+2019-08-27 07:03:43 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/refqi/Documents/webippro/4.png]]
+
+2019-08-27 07:03:43 - [TEST_STEP][PASSED] - setText(findTestObject("Page_iPropio - Login/input_Password_password"), "test123456"): Text 'test123456' is set on object 'Object Repository/Page_iPropio - Login/input_Password_password'
+
+2019-08-27 07:04:03 - [MESSAGE][PASSED] - Text 'test123456' is set on object 'Object Repository/Page_iPropio - Login/input_Password_password'
+
+2019-08-27 07:04:03 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-08-27 07:04:05 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-27 07:04:05 - [TEST_STEP][PASSED] - takeScreenshot("/Users/refqi/Documents/webippro/5.png"): Taking screenshot successfully
+
+2019-08-27 07:04:11 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/refqi/Documents/webippro/5.png]]
+
+2019-08-27 07:04:11 - [TEST_STEP][PASSED] - click(findTestObject("Page_iPropio - Login/button_Login Now")): Object: 'Object Repository/Page_iPropio - Login/button_Login Now' is clicked on
+
+2019-08-27 07:04:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_iPropio - Login/button_Login Now' is clicked on
+
+2019-08-27 07:04:21 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-08-27 07:04:23 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-27 07:04:23 - [TEST_STEP][PASSED] - takeScreenshot("/Users/refqi/Documents/webippro/7.png"): Taking screenshot successfully
+
+2019-08-27 07:04:29 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/refqi/Documents/webippro/7.png]]
+
+2019-08-27 07:04:29 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-08-27 07:04:31 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-27 07:04:31 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/IP-001 (Login tenant)' successfully
+
+2019-08-27 07:04:31 - [TEST_STEP][PASSED] - click(findTestObject("all report no matching data/div_Reports")): Object: 'Object Repository/all report no matching data/div_Reports' is clicked on
+
+2019-08-27 07:04:41 - [MESSAGE][PASSED] - Object: 'Object Repository/all report no matching data/div_Reports' is clicked on
+
+2019-08-27 07:04:41 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2019-08-27 07:04:47 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/refqi/git/otomasiterjadwal/ipropio/Reports/IP-024 ( all report matching data )/20190827_070231/1566864281862.png]]
+
+2019-08-27 07:04:47 - [TEST_STEP][PASSED] - click(findTestObject("all report no matching data/a_All Transactions")): Object: 'Object Repository/all report no matching data/a_All Transactions' is clicked on
+
+2019-08-27 07:04:57 - [MESSAGE][PASSED] - Object: 'Object Repository/all report no matching data/a_All Transactions' is clicked on
+
+2019-08-27 07:04:57 - [TEST_STEP][PASSED] - click(findTestObject("all report no matching data/input_Date Range_date")): Object: 'Object Repository/all report no matching data/input_Date Range_date' is clicked on
+
+2019-08-27 07:05:08 - [MESSAGE][PASSED] - Object: 'Object Repository/all report no matching data/input_Date Range_date' is clicked on
+
+2019-08-27 07:05:08 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2019-08-27 07:05:13 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/refqi/git/otomasiterjadwal/ipropio/Reports/IP-024 ( all report matching data )/20190827_070231/1566864308024.png]]
+
+2019-08-27 07:05:13 - [TEST_STEP][PASSED] - click(findTestObject("all report no matching data/button_previous 30 days")): Object: 'Object Repository/all report no matching data/button_previous 30 days' is clicked on
+
+2019-08-27 07:05:23 - [MESSAGE][PASSED] - Object: 'Object Repository/all report no matching data/button_previous 30 days' is clicked on
+
+2019-08-27 07:05:23 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2019-08-27 07:05:29 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/refqi/git/otomasiterjadwal/ipropio/Reports/IP-024 ( all report matching data )/20190827_070231/1566864323838.png]]
+
+2019-08-27 07:05:29 - [TEST_STEP][PASSED] - click(findTestObject("all report no matching data/input_Paid_vs__search")): Object: 'Object Repository/all report no matching data/input_Paid_vs__search' is clicked on
+
+2019-08-27 07:05:39 - [MESSAGE][PASSED] - Object: 'Object Repository/all report no matching data/input_Paid_vs__search' is clicked on
+
+2019-08-27 07:05:39 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2019-08-27 07:05:44 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/refqi/git/otomasiterjadwal/ipropio/Reports/IP-024 ( all report matching data )/20190827_070231/1566864339557.png]]
+
+2019-08-27 07:05:44 - [TEST_STEP][PASSED] - click(findTestObject("all report no matching data/li_Paid")): Object: 'Object Repository/all report no matching data/li_Paid' is clicked on
+
+2019-08-27 07:05:55 - [MESSAGE][PASSED] - Object: 'Object Repository/all report no matching data/li_Paid' is clicked on
+
+2019-08-27 07:05:55 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2019-08-27 07:06:00 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/refqi/git/otomasiterjadwal/ipropio/Reports/IP-024 ( all report matching data )/20190827_070231/1566864355245.png]]
+
+2019-08-27 07:06:00 - [TEST_STEP][PASSED] - delay(0): Delayed 0 second(s)
+
+2019-08-27 07:06:00 - [MESSAGE][PASSED] - Delayed 0 second(s)
+
+2019-08-27 07:06:00 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2019-08-27 07:06:06 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/refqi/git/otomasiterjadwal/ipropio/Reports/IP-024 ( all report matching data )/20190827_070231/1566864360628.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-08-27 07:02:46 - [TEST_SUITE][PASSED] - IP-024 ( all report matching data ): Test Cases/IP-024 ( all Report matching data )]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
