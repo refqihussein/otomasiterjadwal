@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+IP-026 ( Setting ),Chrome 76.0.3809.100,,,2019-08-31 05:51:38,2019-08-31 05:55:07,3m - 28.946s,INCOMPLETE
+,,,,,,,
+Test Cases/IP-026 ( Setting),Chrome 76.0.3809.100,,,2019-08-31 05:51:38,2019-08-31 05:55:07,3m - 28.519s,FAILED
+"callTestCase(findTestCase(""IP-001 (Login)""), [""Email"":""aaa@gmail.com"", ""Password"":""123445656""], STOP_ON_FAILURE)",Chrome 76.0.3809.100,,,2019-08-31 05:51:39,2019-08-31 05:53:00,1m - 21.112s,PASSED
+"click(findTestObject(""setting-company/Page_iPropio - Dashboard/div_Settings""))",Chrome 76.0.3809.100,,,2019-08-31 05:53:00,2019-08-31 05:53:10,10.130s,PASSED
+"click(findTestObject(""setting-company/Page_iPropio - Dashboard/a_Account Settings""))",Chrome 76.0.3809.100,,,2019-08-31 05:53:10,2019-08-31 05:53:20,10.117s,PASSED
+"click(findTestObject(""setting-company/Page_iPropio - Account Settings/input_May_vs__search""))",Chrome 76.0.3809.100,,,2019-08-31 05:53:20,2019-08-31 05:53:30,10.143s,PASSED
+"click(findTestObject(""setting-company/Page_iPropio - Account Settings/li_May""))",Chrome 76.0.3809.100,,,2019-08-31 05:53:30,2019-08-31 05:53:41,10.097s,PASSED
+"click(findTestObject(""setting-company/Page_iPropio - Account Settings/input_AfricaLagos_vs__search""))",Chrome 76.0.3809.100,,,2019-08-31 05:53:41,2019-08-31 05:53:51,10.115s,PASSED
+"click(findTestObject(""setting-company/Page_iPropio - Account Settings/li_AfricaLagos""))",Chrome 76.0.3809.100,,,2019-08-31 05:53:51,2019-08-31 05:54:01,10.102s,PASSED
+"click(findTestObject(""setting-company/Page_iPropio - Account Settings/input_DD-MM-YYYY_vs__search""))",Chrome 76.0.3809.100,,,2019-08-31 05:54:01,2019-08-31 05:54:11,10.146s,PASSED
+"click(findTestObject(""setting-company/Page_iPropio - Account Settings/li_DD-MM-YYYY""))",Chrome 76.0.3809.100,,,2019-08-31 05:54:11,2019-08-31 05:54:21,10.196s,PASSED
+"click(findTestObject(""setting-company/Page_iPropio - Account Settings/input_Armenian dram (AMD)_vs__search""))",Chrome 76.0.3809.100,,,2019-08-31 05:54:21,2019-08-31 05:54:31,10.131s,PASSED
+"click(findTestObject(""setting-company/Page_iPropio - Account Settings/li_Armenian dram (AMD)""))",Chrome 76.0.3809.100,,,2019-08-31 05:54:31,2019-08-31 05:54:41,10.132s,PASSED
+"click(findTestObject(""setting-company/Page_iPropio - Account Settings/input_First Name Last Name_vs__search""))",Chrome 76.0.3809.100,,,2019-08-31 05:54:41,2019-08-31 05:54:51,10.110s,PASSED
+"click(findTestObject(""setting-company/Page_iPropio - Account Settings/li_First Name Last Name""))",Chrome 76.0.3809.100,,,2019-08-31 05:54:51,2019-08-31 05:55:07,15.443s,FAILED

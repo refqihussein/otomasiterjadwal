@@ -1,0 +1,15 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+IP-027 ( Type Alert ),Chrome 76.0.3809.100,,,2019-08-31 06:20:12,2019-08-31 06:23:00,2m - 48.082s,INCOMPLETE
+,,,,,,,
+Test Cases/IP-027 ( Type alert ),Chrome 76.0.3809.100,,,2019-08-31 06:20:12,2019-08-31 06:23:00,2m - 47.343s,PASSED
+"callTestCase(findTestCase(""IP-001 (Login)""), [""Email"":""aaa@gmail.com"", ""Password"":""123445656""], STOP_ON_FAILURE)",Chrome 76.0.3809.100,,,2019-08-31 06:20:13,2019-08-31 06:21:33,1m - 20.429s,PASSED
+"click(findTestObject(""Object Repository/Alert Types/div_Guard  Security""))",Chrome 76.0.3809.100,,,2019-08-31 06:21:33,2019-08-31 06:21:43,10.146s,PASSED
+"click(findTestObject(""Object Repository/Alert Types/a_Alert Types""))",Chrome 76.0.3809.100,,,2019-08-31 06:21:43,2019-08-31 06:21:53,10.112s,PASSED
+"click(findTestObject(""Object Repository/Alert Types/button_Add New Alert""))",Chrome 76.0.3809.100,,,2019-08-31 06:21:53,2019-08-31 06:22:03,10.115s,PASSED
+"setText(findTestObject(""Object Repository/Alert Types/input_Add Alert Type_name-input""), ""Otomation 1"")",Chrome 76.0.3809.100,,,2019-08-31 06:22:03,2019-08-31 06:22:19,15.292s,PASSED
+"click(findTestObject(""Object Repository/Alert Types/button_Create New Alert""))",Chrome 76.0.3809.100,,,2019-08-31 06:22:19,2019-08-31 06:22:29,10.106s,PASSED
+takeScreenshot(),Chrome 76.0.3809.100,,,2019-08-31 06:22:29,2019-08-31 06:22:34,5.258s,PASSED
+"click(findTestObject(""Object Repository/Alert Types/button_Delete""))",Chrome 76.0.3809.100,,,2019-08-31 06:22:34,2019-08-31 06:22:44,10.135s,PASSED
+"click(findTestObject(""Object Repository/Alert Types/button_Yes Delete""))",Chrome 76.0.3809.100,,,2019-08-31 06:22:44,2019-08-31 06:22:54,10.104s,PASSED
+delay(0),Chrome 76.0.3809.100,,,2019-08-31 06:22:54,2019-08-31 06:22:54,0.023s,PASSED
+takeScreenshot(),Chrome 76.0.3809.100,,,2019-08-31 06:22:54,2019-08-31 06:23:00,5.275s,PASSED

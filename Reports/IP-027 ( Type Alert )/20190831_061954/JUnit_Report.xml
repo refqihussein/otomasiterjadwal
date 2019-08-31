@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testsuites name="IP-027 ( Type Alert )" time="168" tests="1" failures="0" errors="0">
+    <testsuite name="IP-027 ( Type Alert )" tests="1" failures="0" errors="0" time="168" timestamp="2019-08-31 06:20:12" hostname="refqi - 172.20.10.7" id="Test Suites/IP-027 ( Type Alert )">
+        <properties>
+            <property name="deviceName" value=""/>
+            <property name="devicePlatform" value=""/>
+            <property name="logFolder" value="/Users/refqi/git/otomasiterjadwal/ipropio/Reports/IP-027 ( Type Alert )/20190831_061954"/>
+            <property name="logFiles" value="/Users/refqi/git/otomasiterjadwal/ipropio/Reports/IP-027 ( Type Alert )/20190831_061954/execution0.log"/>
+            <property name="attachments" value="/Users/refqi/Documents/webippro/4.png, /Users/refqi/Documents/webippro/5.png, /Users/refqi/Documents/webippro/7.png, /Users/refqi/git/otomasiterjadwal/ipropio/Reports/IP-027 ( Type Alert )/20190831_061954/1567207349323.png, /Users/refqi/git/otomasiterjadwal/ipropio/Reports/IP-027 ( Type Alert )/20190831_061954/1567207374844.png"/>
+            <property name="hostName" value="refqi - 172.20.10.7"/>
+            <property name="os" value="Mac OS X 64bit"/>
+            <property name="katalonVersion" value="6.2.1.2"/>
+            <property name="browser" value="Chrome 76.0.3809.100"/>
+            <property name="hostAddress" value="172.20.10.7"/>
+            <property name="sessionId" value="989a3188abed70b368440ce923c755c8"/>
+            <property name="seleniumVersion" value="3.141.59"/>
+            <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+            <property name="platform" value="Mac OS X"/>
+        </properties>
+        <testcase name="Test Cases/IP-027 ( Type alert )" classname="Test Cases/IP-027 ( Type alert )" status="PASSED">
+            <system-out>2019-08-31 06:20:12 - [TEST_CASE][PASSED] - Test Cases/IP-027 ( Type alert ): Test Cases/IP-027 ( Type alert )
+
+2019-08-31 06:20:13 - [TEST_STEP][PASSED] - callTestCase(findTestCase("IP-001 (Login)"), ["Email":"aaa@gmail.com", "Password":"123445656"], STOP_ON_FAILURE): Call Test Case 'Test Cases/IP-001 (Login)' successfully
+
+2019-08-31 06:20:13 - [TEST_CASE][PASSED] - Test Cases/IP-001 (Login): Test Cases/IP-001 (Login)
+
+2019-08-31 06:20:13 - [TEST_STEP][PASSED] - openBrowser("http://kamisa.web.iprop-dev.com/login"): Browser is opened with url: 'http://kamisa.web.iprop-dev.com/login'
+
+2019-08-31 06:20:13 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-08-31 06:20:13 - [MESSAGE][INFO] - Action delay is set to 5 seconds
+
+2019-08-31 06:20:32 - [MESSAGE][PASSED] - Browser is opened with url: 'http://kamisa.web.iprop-dev.com/login'
+
+2019-08-31 06:20:32 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-08-31 06:20:33 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-08-31 06:20:33 - [TEST_STEP][PASSED] - setText(findTestObject("Page_iPropio - Login/input_Email_email"), "didinonpqcms@gmail.com"): Text 'didinonpqcms@gmail.com' is set on object 'Object Repository/Page_iPropio - Login/input_Email_email'
+
+2019-08-31 06:20:48 - [MESSAGE][PASSED] - Text 'didinonpqcms@gmail.com' is set on object 'Object Repository/Page_iPropio - Login/input_Email_email'
+
+2019-08-31 06:20:48 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-08-31 06:20:49 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-08-31 06:20:49 - [TEST_STEP][PASSED] - takeScreenshot("/Users/refqi/Documents/webippro/4.png"): Taking screenshot successfully
+
+2019-08-31 06:20:55 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/refqi/Documents/webippro/4.png]]
+
+2019-08-31 06:20:55 - [TEST_STEP][PASSED] - setText(findTestObject("Page_iPropio - Login/input_Password_password"), "testing12345"): Text 'testing12345' is set on object 'Object Repository/Page_iPropio - Login/input_Password_password'
+
+2019-08-31 06:21:10 - [MESSAGE][PASSED] - Text 'testing12345' is set on object 'Object Repository/Page_iPropio - Login/input_Password_password'
+
+2019-08-31 06:21:10 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-08-31 06:21:11 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-08-31 06:21:11 - [TEST_STEP][PASSED] - takeScreenshot("/Users/refqi/Documents/webippro/5.png"): Taking screenshot successfully
+
+2019-08-31 06:21:17 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/refqi/Documents/webippro/5.png]]
+
+2019-08-31 06:21:17 - [TEST_STEP][PASSED] - click(findTestObject("Page_iPropio - Login/button_Login Now")): Object: 'Object Repository/Page_iPropio - Login/button_Login Now' is clicked on
+
+2019-08-31 06:21:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_iPropio - Login/button_Login Now' is clicked on
+
+2019-08-31 06:21:27 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-08-31 06:21:28 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-08-31 06:21:28 - [TEST_STEP][PASSED] - takeScreenshot("/Users/refqi/Documents/webippro/7.png"): Taking screenshot successfully
+
+2019-08-31 06:21:33 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/refqi/Documents/webippro/7.png]]
+
+2019-08-31 06:21:33 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/IP-001 (Login)' successfully
+
+2019-08-31 06:21:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Alert Types/div_Guard  Security")): Object: 'Object Repository/Alert Types/div_Guard  Security' is clicked on
+
+2019-08-31 06:21:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Alert Types/div_Guard  Security' is clicked on
+
+2019-08-31 06:21:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Alert Types/a_Alert Types")): Object: 'Object Repository/Alert Types/a_Alert Types' is clicked on
+
+2019-08-31 06:21:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Alert Types/a_Alert Types' is clicked on
+
+2019-08-31 06:21:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Alert Types/button_Add New Alert")): Object: 'Object Repository/Alert Types/button_Add New Alert' is clicked on
+
+2019-08-31 06:22:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Alert Types/button_Add New Alert' is clicked on
+
+2019-08-31 06:22:03 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Alert Types/input_Add Alert Type_name-input"), "Otomation 1"): Text 'Otomation 1' is set on object 'Object Repository/Alert Types/input_Add Alert Type_name-input'
+
+2019-08-31 06:22:19 - [MESSAGE][PASSED] - Text 'Otomation 1' is set on object 'Object Repository/Alert Types/input_Add Alert Type_name-input'
+
+2019-08-31 06:22:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Alert Types/button_Create New Alert")): Object: 'Object Repository/Alert Types/button_Create New Alert' is clicked on
+
+2019-08-31 06:22:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Alert Types/button_Create New Alert' is clicked on
+
+2019-08-31 06:22:29 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2019-08-31 06:22:34 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/refqi/git/otomasiterjadwal/ipropio/Reports/IP-027 ( Type Alert )/20190831_061954/1567207349323.png]]
+
+2019-08-31 06:22:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Alert Types/button_Delete")): Object: 'Object Repository/Alert Types/button_Delete' is clicked on
+
+2019-08-31 06:22:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Alert Types/button_Delete' is clicked on
+
+2019-08-31 06:22:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Alert Types/button_Yes Delete")): Object: 'Object Repository/Alert Types/button_Yes Delete' is clicked on
+
+2019-08-31 06:22:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Alert Types/button_Yes Delete' is clicked on
+
+2019-08-31 06:22:54 - [TEST_STEP][PASSED] - delay(0): Delayed 0 second(s)
+
+2019-08-31 06:22:54 - [MESSAGE][PASSED] - Delayed 0 second(s)
+
+2019-08-31 06:22:54 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2019-08-31 06:23:00 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/refqi/git/otomasiterjadwal/ipropio/Reports/IP-027 ( Type Alert )/20190831_061954/1567207374844.png]]</system-out>
+            <system-err></system-err>
+        </testcase>
+        <system-out>2019-08-31 06:20:12 - [TEST_SUITE][INCOMPLETE] - IP-027 ( Type Alert ): null</system-out>
+        <system-err>2019-08-31 06:20:12 - [TEST_SUITE][INCOMPLETE] - IP-027 ( Type Alert ): null</system-err>
+    </testsuite>
+</testsuites>

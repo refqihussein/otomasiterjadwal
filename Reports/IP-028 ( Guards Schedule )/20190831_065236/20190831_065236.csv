@@ -1,0 +1,28 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+IP-028 ( Guards Schedule ),Chrome 76.0.3809.100,,,2019-08-31 06:52:57,2019-08-31 06:57:53,4m - 56.112s,INCOMPLETE
+,,,,,,,
+Test Cases/IP-028 ( Guards Schedule ),Chrome 76.0.3809.100,,,2019-08-31 06:52:58,2019-08-31 06:57:53,4m - 55.714s,PASSED
+"callTestCase(findTestCase(""IP-001 (Login)""), [""Email"":""aaa@gmail.com"", ""Password"":""123445656""], STOP_ON_FAILURE)",Chrome 76.0.3809.100,,,2019-08-31 06:52:58,2019-08-31 06:54:20,1m - 21.739s,PASSED
+"click(findTestObject(""Object Repository/Guards Schedule/div_Guard  Security""))",Chrome 76.0.3809.100,,,2019-08-31 06:54:20,2019-08-31 06:54:30,10.100s,PASSED
+"click(findTestObject(""Object Repository/Guards Schedule/a_Guard Schedule""))",Chrome 76.0.3809.100,,,2019-08-31 06:54:30,2019-08-31 06:54:40,10.118s,PASSED
+"click(findTestObject(""Object Repository/Guards Schedule/a_Create Schedule""))",Chrome 76.0.3809.100,,,2019-08-31 06:54:40,2019-08-31 06:54:50,10.128s,PASSED
+"click(findTestObject(""input_Schedule Interval_vs__search""))",Chrome 76.0.3809.100,,,2019-08-31 06:54:50,2019-08-31 06:55:00,10.104s,PASSED
+"click(findTestObject(""Guards Schedule/li_monthly""))",Chrome 76.0.3809.100,,,2019-08-31 06:55:00,2019-08-31 06:55:10,10.105s,PASSED
+"click(findTestObject(""input_Schedule Preference_vs__search""))",Chrome 76.0.3809.100,,,2019-08-31 06:55:10,2019-08-31 06:55:21,10.091s,PASSED
+"click(findTestObject(""Guards Schedule/li_weekly""))",Chrome 76.0.3809.100,,,2019-08-31 06:55:21,2019-08-31 06:55:31,10.105s,PASSED
+"click(findTestObject(""input_Select Schedule Date_date""))",Chrome 76.0.3809.100,,,2019-08-31 06:55:31,2019-08-31 06:55:41,10.122s,PASSED
+"click(findTestObject(""Object Repository/Guards Schedule/td_30""))",Chrome 76.0.3809.100,,,2019-08-31 06:55:41,2019-08-31 06:55:51,10.107s,PASSED
+"click(findTestObject(""Object Repository/Guards Schedule/td_31""))",Chrome 76.0.3809.100,,,2019-08-31 06:55:51,2019-08-31 06:56:01,10.117s,PASSED
+takeScreenshot(),Chrome 76.0.3809.100,,,2019-08-31 06:56:01,2019-08-31 06:56:06,5.274s,PASSED
+"click(findTestObject(""Object Repository/Guards Schedule/button_Create Guard Now""))",Chrome 76.0.3809.100,,,2019-08-31 06:56:06,2019-08-31 06:56:16,10.106s,PASSED
+"click(findTestObject(""Object Repository/Guards Schedule/span_No guard""))",Chrome 76.0.3809.100,,,2019-08-31 06:56:16,2019-08-31 06:56:26,10.098s,PASSED
+"click(findTestObject(""Object Repository/Guards Schedule/span_Satpam""))",Chrome 76.0.3809.100,,,2019-08-31 06:56:26,2019-08-31 06:56:37,10.121s,PASSED
+"click(findTestObject(""Object Repository/Guards Schedule/button_Add Here""))",Chrome 76.0.3809.100,,,2019-08-31 06:56:37,2019-08-31 06:56:47,10.096s,PASSED
+takeScreenshot(),Chrome 76.0.3809.100,,,2019-08-31 06:56:47,2019-08-31 06:56:52,5.283s,PASSED
+"click(findTestObject(""Object Repository/Guards Schedule/span_rinto""))",Chrome 76.0.3809.100,,,2019-08-31 06:56:52,2019-08-31 06:57:02,10.090s,PASSED
+"click(findTestObject(""Object Repository/Guards Schedule/button_Add Here""))",Chrome 76.0.3809.100,,,2019-08-31 06:57:02,2019-08-31 06:57:12,10.079s,PASSED
+takeScreenshot(),Chrome 76.0.3809.100,,,2019-08-31 06:57:12,2019-08-31 06:57:17,5.262s,PASSED
+"click(findTestObject(""Object Repository/Guards Schedule/a_Back""))",Chrome 76.0.3809.100,,,2019-08-31 06:57:17,2019-08-31 06:57:28,10.118s,PASSED
+"click(findTestObject(""Object Repository/Guards Schedule/button_Delete""))",Chrome 76.0.3809.100,,,2019-08-31 06:57:28,2019-08-31 06:57:38,10.166s,PASSED
+"click(findTestObject(""Object Repository/Guards Schedule/button_OK""))",Chrome 76.0.3809.100,,,2019-08-31 06:57:38,2019-08-31 06:57:48,10.103s,PASSED
+takeScreenshot(),Chrome 76.0.3809.100,,,2019-08-31 06:57:48,2019-08-31 06:57:53,5.514s,PASSED
