@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>- Tenant Login
+- BUngalow</description>
+   <name>IP-008( Product and service )-negtive</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7f55c952-6686-4ca9-9e93-5e9b03c19a7c</testCaseGuid>
+</TestCaseEntity>

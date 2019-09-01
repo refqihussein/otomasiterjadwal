@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>-login tenant 
+- vehicle type</description>
+   <name>IP-010 ( vehicle type )</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9e3b4883-8da3-4fda-9170-64d5f3343b17</testCaseGuid>
+</TestCaseEntity>

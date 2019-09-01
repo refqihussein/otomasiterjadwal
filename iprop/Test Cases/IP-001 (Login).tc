@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>IP-001 (Login)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3cfed671-b366-4491-9633-671474124649</testCaseGuid>
+<<<<<<< HEAD
+   <variable>
+      <defaultValue>'aaa@gmail.com'</defaultValue>
+      <description></description>
+      <id>b524fcf0-f6e0-4b40-a1e9-b9474f7b02e0</id>
+      <masked>false</masked>
+      <name>Email</name>
+   </variable>
+   <variable>
+      <defaultValue>'123445656'</defaultValue>
+      <description></description>
+      <id>7ff75663-efb2-490e-bcee-547972bd898a</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
+=======
+>>>>>>> branch 'master' of https://github.com/refqihussein/otomasiterjadwal.git
+</TestCaseEntity>

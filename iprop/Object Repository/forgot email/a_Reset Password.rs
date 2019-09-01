@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Reset Password</name>
+   <tag></tag>
+   <elementGuidId>eb5f5b7f-4dc3-4677-a0b7-0ac493175f7e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id=':nx']/div/table/tbody/tr/td/table/tbody/tr[2]/td/table/tbody/tr/td/table/tbody/tr/td/table/tbody/tr/td/table/tbody/tr/td/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>https://u9639404.ct.sendgrid.net/wf/click?upn=nu-2FgXwxQ1qajrlcRaD0Ldfy1U8esigHGro1e9OVaKbWOi8ifWrHNuHi2xTZr4ZvzG-2BHvF2ZcZlYznfbVU0T1rnOL-2BrbSPAddsyDO9RHfrMDOgJ75s3AuFuF5BT90pqbjxw8rIPQQAQjA5jmhgvz39w1l3CGtwYVCNgChqsPRJ4uaEKCO1iUC4tiUn9f9jkeSGlrrU-2BdYkVwsxKyYaB6ZEdyq-2BvJotY-2BdJjB3r2aQY2AwivXqOmUitqX8kK9T2R6H0tchXZd-2FNHhFnJMTcHHBHE8z-2FVOHPuwJA7qES-2FezJRgCRVrv51iaPa4J1tMuoOhdXlvpA7OOOi-2Bh57s0tcyTkBgf2MWb9-2B-2FeQ0eW86fonP-2FVOFw4c4-2BtVv6bPHaYhO0AuzSl6Ph7k96LP2fb6ULorOzEU4nzGwzIAtv6YpK2UaCg36f8mukEuzl2Ms-2F6JLsUnSXbem2nBdMf-2BBwrrhXP-2BPY6gO8dgLr49xuToOPjezsu2XZQyZ6FU986peHige7SE1zi50Kj1otLSXWWeZkbotgHiYPNHmIKAE3-2FG2HX2WyA3FwqedlCjFKWZ4AOEv89Se-2BeyPt95wafyR3u-2FzmNY-2Fv9cAJ9rzw7VW8N4NvVQ-2FYMbdC70aVpzoIbiAvk0tlNpsYtHYNXHWcfUY0scOWAsNWUlhIkEgYz0o6XreCoApxQM2CjbGFTTTKUvZg9Rr0n_FFzaGqYimjb1f6NWZUNJo7zdff0AQcx9IZK0FmTBw5Q66-2F8nDX2TQCgGmuDhvtRHDoUCkREe0lSQu4WpHcxQwHV-2BgbCGO0bWosLfkreMf8bG0fjcKAGC5DlbqmnlWe4eSfvH6Goip-2BibwR-2BYEsKtI5cY-2Bmbir1D79K9ppUEkr1U5BC8SVnZa-2FPQKoNyEadpNtQvlBS1YOgy5BBKmv3LhJGeywgX-2FR-2FSwh7fJY06ieck-3D</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>m_-6590445812445924523button m_-6590445812445924523button-primary</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>target</name>
+      <type>Main</type>
+      <value>_blank</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-saferedirecturl</name>
+      <type>Main</type>
+      <value>https://www.google.com/url?q=https://u9639404.ct.sendgrid.net/wf/click?upn%3Dnu-2FgXwxQ1qajrlcRaD0Ldfy1U8esigHGro1e9OVaKbWOi8ifWrHNuHi2xTZr4ZvzG-2BHvF2ZcZlYznfbVU0T1rnOL-2BrbSPAddsyDO9RHfrMDOgJ75s3AuFuF5BT90pqbjxw8rIPQQAQjA5jmhgvz39w1l3CGtwYVCNgChqsPRJ4uaEKCO1iUC4tiUn9f9jkeSGlrrU-2BdYkVwsxKyYaB6ZEdyq-2BvJotY-2BdJjB3r2aQY2AwivXqOmUitqX8kK9T2R6H0tchXZd-2FNHhFnJMTcHHBHE8z-2FVOHPuwJA7qES-2FezJRgCRVrv51iaPa4J1tMuoOhdXlvpA7OOOi-2Bh57s0tcyTkBgf2MWb9-2B-2FeQ0eW86fonP-2FVOFw4c4-2BtVv6bPHaYhO0AuzSl6Ph7k96LP2fb6ULorOzEU4nzGwzIAtv6YpK2UaCg36f8mukEuzl2Ms-2F6JLsUnSXbem2nBdMf-2BBwrrhXP-2BPY6gO8dgLr49xuToOPjezsu2XZQyZ6FU986peHige7SE1zi50Kj1otLSXWWeZkbotgHiYPNHmIKAE3-2FG2HX2WyA3FwqedlCjFKWZ4AOEv89Se-2BeyPt95wafyR3u-2FzmNY-2Fv9cAJ9rzw7VW8N4NvVQ-2FYMbdC70aVpzoIbiAvk0tlNpsYtHYNXHWcfUY0scOWAsNWUlhIkEgYz0o6XreCoApxQM2CjbGFTTTKUvZg9Rr0n_FFzaGqYimjb1f6NWZUNJo7zdff0AQcx9IZK0FmTBw5Q66-2F8nDX2TQCgGmuDhvtRHDoUCkREe0lSQu4WpHcxQwHV-2BgbCGO0bWosLfkreMf8bG0fjcKAGC5DlbqmnlWe4eSfvH6Goip-2BibwR-2BYEsKtI5cY-2Bmbir1D79K9ppUEkr1U5BC8SVnZa-2FPQKoNyEadpNtQvlBS1YOgy5BBKmv3LhJGeywgX-2FR-2FSwh7fJY06ieck-3D&amp;source=gmail&amp;ust=1566126489919000&amp;usg=AFQjCNFdd8ezl6uZGGfBOaPYWKib14RPUQ</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Reset Password</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;:mw&quot;)/div[1]/table[@class=&quot;m_-6590445812445924523wrapper&quot;]/tbody[1]/tr[1]/td[1]/table[@class=&quot;m_-6590445812445924523content&quot;]/tbody[1]/tr[2]/td[@class=&quot;m_-6590445812445924523body&quot;]/table[@class=&quot;m_-6590445812445924523inner-body&quot;]/tbody[1]/tr[1]/td[@class=&quot;m_-6590445812445924523content-cell&quot;]/table[@class=&quot;m_-6590445812445924523action&quot;]/tbody[1]/tr[1]/td[1]/table[1]/tbody[1]/tr[1]/td[1]/table[1]/tbody[1]/tr[1]/td[1]/a[@class=&quot;m_-6590445812445924523button m_-6590445812445924523button-primary&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id=':mw']/div/table/tbody/tr/td/table/tbody/tr[2]/td/table/tbody/tr/td/table/tbody/tr/td/table/tbody/tr/td/table/tbody/tr/td/a</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Reset Password')]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Need Your Attention,'])[1]/following::a[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='iProp.io'])[1]/following::a[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='feedback@iprop.io'])[1]/preceding::a[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, 'https://u9639404.ct.sendgrid.net/wf/click?upn=nu-2FgXwxQ1qajrlcRaD0Ldfy1U8esigHGro1e9OVaKbWOi8ifWrHNuHi2xTZr4ZvzG-2BHvF2ZcZlYznfbVU0T1rnOL-2BrbSPAddsyDO9RHfrMDOgJ75s3AuFuF5BT90pqbjxw8rIPQQAQjA5jmhgvz39w1l3CGtwYVCNgChqsPRJ4uaEKCO1iUC4tiUn9f9jkeSGlrrU-2BdYkVwsxKyYaB6ZEdyq-2BvJotY-2BdJjB3r2aQY2AwivXqOmUitqX8kK9T2R6H0tchXZd-2FNHhFnJMTcHHBHE8z-2FVOHPuwJA7qES-2FezJRgCRVrv51iaPa4J1tMuoOhdXlvpA7OOOi-2Bh57s0tcyTkBgf2MWb9-2B-2FeQ0eW86fonP-2FVOFw4c4-2BtVv6bPHaYhO0AuzSl6Ph7k96LP2fb6ULorOzEU4nzGwzIAtv6YpK2UaCg36f8mukEuzl2Ms-2F6JLsUnSXbem2nBdMf-2BBwrrhXP-2BPY6gO8dgLr49xuToOPjezsu2XZQyZ6FU986peHige7SE1zi50Kj1otLSXWWeZkbotgHiYPNHmIKAE3-2FG2HX2WyA3FwqedlCjFKWZ4AOEv89Se-2BeyPt95wafyR3u-2FzmNY-2Fv9cAJ9rzw7VW8N4NvVQ-2FYMbdC70aVpzoIbiAvk0tlNpsYtHYNXHWcfUY0scOWAsNWUlhIkEgYz0o6XreCoApxQM2CjbGFTTTKUvZg9Rr0n_FFzaGqYimjb1f6NWZUNJo7zdff0AQcx9IZK0FmTBw5Q66-2F8nDX2TQCgGmuDhvtRHDoUCkREe0lSQu4WpHcxQwHV-2BgbCGO0bWosLfkreMf8bG0fjcKAGC5DlbqmnlWe4eSfvH6Goip-2BibwR-2BYEsKtI5cY-2Bmbir1D79K9ppUEkr1U5BC8SVnZa-2FPQKoNyEadpNtQvlBS1YOgy5BBKmv3LhJGeywgX-2FR-2FSwh7fJY06ieck-3D')]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td/table/tbody/tr/td/table/tbody/tr/td/a</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id=':nx']/div/table/tbody/tr/td/table/tbody/tr[2]/td/table/tbody/tr/td/table/tbody/tr/td/table/tbody/tr/td/table/tbody/tr/td/a</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, 'https://u9639404.ct.sendgrid.net/wf/click?upn=nu-2FgXwxQ1qajrlcRaD0Ldfy1U8esigHGro1e9OVaKbWOi8ifWrHNuHi2xTZr4ZvzG-2BHvF2ZcZlYznfbVU0T1rnOL-2BrbSPAddsyDO9RHfrMDOgJ75s3AuFuF5BT90pqbjxw8rIPQQAQjA5jmhgvz39w1l3CGtwYVCNgChqsPRJ4uaEKCO1iUC4tiUn9f9jkeSGlrrU-2BdYkVwsxKyYaB6ZEdyq-2BvJotY-2BdJjB3r2aQY2AwivXqOmUitqX8kK9T2R6Hw-2BXdyLp831Lh5M5VfowRtrLtIzYLOdGRJMvioFJOihgHZ5Hra2aLOvypZDUPpgcyohopAB383Cr490NT05FXZC7F4Lq4TBni5wX-2BuRH1O9zPO8llkb04n55PK71XoQyPrQO9nf8jGl-2Bo3QtZsBXCwcDDnOkG-2FBD6Onmvi6ZbguurqeCFd4uZh5gdSi676nDGIxvJNuuNIEo-2Bl0-2BgqsUjXN-2BYU4JKp8aDH6Xup4rrqBn78cBAGNrf4gE2gRvmxRnY6vFPXPKQiPegJc8NaVSkC-2FtQNRTimAcuCtpWVYZj-2FwfUQUVy-2BYr7H5G9WDfwodWDRgO9h9vRsrFtZ5jS6fWUFrhkHVTRKsqLy3Mw0725g33yTFkcqCXnSP4kGo-2B2VqlzL7vskMKqA0-2B50eWuRief0FwXMCxPTaLimj08ZitImKaV-2FkqLP8mvHn-2FACZNQihnP_FFzaGqYimjb1f6NWZUNJo7zdff0AQcx9IZK0FmTBw5QDxUJWu-2FfyBBkgaOCwtdT5IzHG-2BxsYMbsqV-2BUvF0WWAjZWeVD9tJ1Cy5D2vyUB6pLnJXmBwB7nAq-2FEArbDj3rIxOrzlKfntu1gyVkv4sT1A6EV9TAGURF7xKlF1zgTc3t4gkkgYgFeo3lST-2F7iF-2FX3WVXYuvzCPP00wUNGA8OAynTdMyx-2BwwVrJG4-2B9bp8eis-3D')]</value>
+   </webElementXpaths>
+</WebElementEntity>

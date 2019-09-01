@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testsuites name="IP-026 ( Setting )" time="280" tests="1" failures="0" errors="0">
+    <testsuite name="IP-026 ( Setting )" tests="1" failures="0" errors="0" time="280" timestamp="2019-08-31 05:58:48" hostname="refqi - 172.20.10.7" id="Test Suites/IP-026 ( Setting )">
+        <properties>
+            <property name="deviceName" value=""/>
+            <property name="devicePlatform" value=""/>
+            <property name="logFolder" value="/Users/refqi/git/otomasiterjadwal/ipropio/Reports/IP-026 ( Setting )/20190831_055827"/>
+            <property name="logFiles" value="/Users/refqi/git/otomasiterjadwal/ipropio/Reports/IP-026 ( Setting )/20190831_055827/execution0.log"/>
+            <property name="attachments" value="/Users/refqi/Documents/webippro/4.png, /Users/refqi/Documents/webippro/5.png, /Users/refqi/Documents/webippro/7.png, /Users/refqi/git/otomasiterjadwal/ipropio/Reports/IP-026 ( Setting )/20190831_055827/1567206187765.png, /Users/refqi/git/otomasiterjadwal/ipropio/Reports/IP-026 ( Setting )/20190831_055827/1567206203164.png"/>
+            <property name="hostName" value="refqi - 172.20.10.7"/>
+            <property name="os" value="Mac OS X 64bit"/>
+            <property name="katalonVersion" value="6.2.1.2"/>
+            <property name="browser" value="Chrome 76.0.3809.100"/>
+            <property name="hostAddress" value="172.20.10.7"/>
+            <property name="sessionId" value="445841cc01228ad0ce40be9fec0a71dd"/>
+            <property name="seleniumVersion" value="3.141.59"/>
+            <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+            <property name="platform" value="Mac OS X"/>
+        </properties>
+        <testcase name="Test Cases/IP-026 ( Setting)" classname="Test Cases/IP-026 ( Setting)" status="PASSED">
+            <system-out>2019-08-31 05:58:48 - [TEST_CASE][PASSED] - Test Cases/IP-026 ( Setting): Test Cases/IP-026 ( Setting)
+
+2019-08-31 05:58:49 - [TEST_STEP][PASSED] - callTestCase(findTestCase("IP-001 (Login)"), ["Email":"aaa@gmail.com", "Password":"123445656"], STOP_ON_FAILURE): Call Test Case 'Test Cases/IP-001 (Login)' successfully
+
+2019-08-31 05:58:49 - [TEST_CASE][PASSED] - Test Cases/IP-001 (Login): Test Cases/IP-001 (Login)
+
+2019-08-31 05:58:49 - [TEST_STEP][PASSED] - openBrowser("http://kamisa.web.iprop-dev.com/login"): Browser is opened with url: 'http://kamisa.web.iprop-dev.com/login'
+
+2019-08-31 05:58:50 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-08-31 05:58:50 - [MESSAGE][INFO] - Action delay is set to 5 seconds
+
+2019-08-31 05:59:11 - [MESSAGE][PASSED] - Browser is opened with url: 'http://kamisa.web.iprop-dev.com/login'
+
+2019-08-31 05:59:11 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-08-31 05:59:12 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-08-31 05:59:12 - [TEST_STEP][PASSED] - setText(findTestObject("Page_iPropio - Login/input_Email_email"), "didinonpqcms@gmail.com"): Text 'didinonpqcms@gmail.com' is set on object 'Object Repository/Page_iPropio - Login/input_Email_email'
+
+2019-08-31 05:59:28 - [MESSAGE][PASSED] - Text 'didinonpqcms@gmail.com' is set on object 'Object Repository/Page_iPropio - Login/input_Email_email'
+
+2019-08-31 05:59:28 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-08-31 05:59:29 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-08-31 05:59:29 - [TEST_STEP][PASSED] - takeScreenshot("/Users/refqi/Documents/webippro/4.png"): Taking screenshot successfully
+
+2019-08-31 05:59:34 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/refqi/Documents/webippro/4.png]]
+
+2019-08-31 05:59:34 - [TEST_STEP][PASSED] - setText(findTestObject("Page_iPropio - Login/input_Password_password"), "testing12345"): Text 'testing12345' is set on object 'Object Repository/Page_iPropio - Login/input_Password_password'
+
+2019-08-31 05:59:50 - [MESSAGE][PASSED] - Text 'testing12345' is set on object 'Object Repository/Page_iPropio - Login/input_Password_password'
+
+2019-08-31 05:59:50 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-08-31 05:59:51 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-08-31 05:59:51 - [TEST_STEP][PASSED] - takeScreenshot("/Users/refqi/Documents/webippro/5.png"): Taking screenshot successfully
+
+2019-08-31 05:59:56 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/refqi/Documents/webippro/5.png]]
+
+2019-08-31 05:59:56 - [TEST_STEP][PASSED] - click(findTestObject("Page_iPropio - Login/button_Login Now")): Object: 'Object Repository/Page_iPropio - Login/button_Login Now' is clicked on
+
+2019-08-31 06:00:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_iPropio - Login/button_Login Now' is clicked on
+
+2019-08-31 06:00:06 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-08-31 06:00:07 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-08-31 06:00:07 - [TEST_STEP][PASSED] - takeScreenshot("/Users/refqi/Documents/webippro/7.png"): Taking screenshot successfully
+
+2019-08-31 06:00:13 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/refqi/Documents/webippro/7.png]]
+
+2019-08-31 06:00:13 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/IP-001 (Login)' successfully
+
+2019-08-31 06:00:13 - [TEST_STEP][PASSED] - click(findTestObject("setting-company/Page_iPropio - Dashboard/div_Settings")): Object: 'Object Repository/setting-company/Page_iPropio - Dashboard/div_Settings' is clicked on
+
+2019-08-31 06:00:23 - [MESSAGE][PASSED] - Object: 'Object Repository/setting-company/Page_iPropio - Dashboard/div_Settings' is clicked on
+
+2019-08-31 06:00:23 - [TEST_STEP][PASSED] - click(findTestObject("setting-company/Page_iPropio - Dashboard/a_Account Settings")): Object: 'Object Repository/setting-company/Page_iPropio - Dashboard/a_Account Settings' is clicked on
+
+2019-08-31 06:00:33 - [MESSAGE][PASSED] - Object: 'Object Repository/setting-company/Page_iPropio - Dashboard/a_Account Settings' is clicked on
+
+2019-08-31 06:00:33 - [TEST_STEP][PASSED] - click(findTestObject("setting-company/Page_iPropio - Account Settings/input_May_vs__search")): Object: 'Object Repository/setting-company/Page_iPropio - Account Settings/input_May_vs__search' is clicked on
+
+2019-08-31 06:00:43 - [MESSAGE][PASSED] - Object: 'Object Repository/setting-company/Page_iPropio - Account Settings/input_May_vs__search' is clicked on
+
+2019-08-31 06:00:43 - [TEST_STEP][PASSED] - click(findTestObject("setting-company/Page_iPropio - Account Settings/li_May")): Object: 'Object Repository/setting-company/Page_iPropio - Account Settings/li_May' is clicked on
+
+2019-08-31 06:00:53 - [MESSAGE][PASSED] - Object: 'Object Repository/setting-company/Page_iPropio - Account Settings/li_May' is clicked on
+
+2019-08-31 06:00:53 - [TEST_STEP][PASSED] - click(findTestObject("setting-company/Page_iPropio - Account Settings/input_AfricaLagos_vs__search")): Object: 'Object Repository/setting-company/Page_iPropio - Account Settings/input_AfricaLagos_vs__search' is clicked on
+
+2019-08-31 06:01:03 - [MESSAGE][PASSED] - Object: 'Object Repository/setting-company/Page_iPropio - Account Settings/input_AfricaLagos_vs__search' is clicked on
+
+2019-08-31 06:01:03 - [TEST_STEP][PASSED] - click(findTestObject("setting-company/Page_iPropio - Account Settings/li_AfricaLagos")): Object: 'Object Repository/setting-company/Page_iPropio - Account Settings/li_AfricaLagos' is clicked on
+
+2019-08-31 06:01:13 - [MESSAGE][PASSED] - Object: 'Object Repository/setting-company/Page_iPropio - Account Settings/li_AfricaLagos' is clicked on
+
+2019-08-31 06:01:13 - [TEST_STEP][PASSED] - click(findTestObject("setting-company/Page_iPropio - Account Settings/input_DD-MM-YYYY_vs__search")): Object: 'Object Repository/setting-company/Page_iPropio - Account Settings/input_DD-MM-YYYY_vs__search' is clicked on
+
+2019-08-31 06:01:24 - [MESSAGE][PASSED] - Object: 'Object Repository/setting-company/Page_iPropio - Account Settings/input_DD-MM-YYYY_vs__search' is clicked on
+
+2019-08-31 06:01:24 - [TEST_STEP][PASSED] - click(findTestObject("setting-company/Page_iPropio - Account Settings/li_DD-MM-YYYY")): Object: 'Object Repository/setting-company/Page_iPropio - Account Settings/li_DD-MM-YYYY' is clicked on
+
+2019-08-31 06:01:34 - [MESSAGE][PASSED] - Object: 'Object Repository/setting-company/Page_iPropio - Account Settings/li_DD-MM-YYYY' is clicked on
+
+2019-08-31 06:01:34 - [TEST_STEP][PASSED] - click(findTestObject("setting-company/Page_iPropio - Account Settings/input_Armenian dram (AMD)_vs__search")): Object: 'Object Repository/setting-company/Page_iPropio - Account Settings/input_Armenian dram (AMD)_vs__search' is clicked on
+
+2019-08-31 06:01:44 - [MESSAGE][PASSED] - Object: 'Object Repository/setting-company/Page_iPropio - Account Settings/input_Armenian dram (AMD)_vs__search' is clicked on
+
+2019-08-31 06:01:44 - [TEST_STEP][PASSED] - click(findTestObject("setting-company/Page_iPropio - Account Settings/li_Armenian dram (AMD)")): Object: 'Object Repository/setting-company/Page_iPropio - Account Settings/li_Armenian dram (AMD)' is clicked on
+
+2019-08-31 06:01:54 - [MESSAGE][PASSED] - Object: 'Object Repository/setting-company/Page_iPropio - Account Settings/li_Armenian dram (AMD)' is clicked on
+
+2019-08-31 06:01:54 - [TEST_STEP][PASSED] - click(findTestObject("setting-company/Page_iPropio - Account Settings/input_First Name Last Name_vs__search")): Object: 'Object Repository/setting-company/Page_iPropio - Account Settings/input_First Name Last Name_vs__search' is clicked on
+
+2019-08-31 06:02:04 - [MESSAGE][PASSED] - Object: 'Object Repository/setting-company/Page_iPropio - Account Settings/input_First Name Last Name_vs__search' is clicked on
+
+2019-08-31 06:02:04 - [TEST_STEP][PASSED] - click(findTestObject("setting-company/Page_iPropio - Account Settings/li_First Name Last Name")): Object: 'Object Repository/setting-company/Page_iPropio - Account Settings/li_First Name Last Name' is clicked on
+
+2019-08-31 06:02:14 - [MESSAGE][PASSED] - Object: 'Object Repository/setting-company/Page_iPropio - Account Settings/li_First Name Last Name' is clicked on
+
+2019-08-31 06:02:14 - [TEST_STEP][PASSED] - click(findTestObject("setting-company/Page_iPropio - Account Settings/input_Monday_vs__search")): Object: 'Object Repository/setting-company/Page_iPropio - Account Settings/input_Monday_vs__search' is clicked on
+
+2019-08-31 06:02:24 - [MESSAGE][PASSED] - Object: 'Object Repository/setting-company/Page_iPropio - Account Settings/input_Monday_vs__search' is clicked on
+
+2019-08-31 06:02:24 - [TEST_STEP][PASSED] - click(findTestObject("setting-company/Page_iPropio - Account Settings/li_Monday")): Object: 'Object Repository/setting-company/Page_iPropio - Account Settings/li_Monday' is clicked on
+
+2019-08-31 06:02:35 - [MESSAGE][PASSED] - Object: 'Object Repository/setting-company/Page_iPropio - Account Settings/li_Monday' is clicked on
+
+2019-08-31 06:02:35 - [TEST_STEP][PASSED] - setText(findTestObject("setting-company/Page_iPropio - Account Settings/input_Invoice Prefix_invoice-prefix"), "Cash"): Text 'Cash' is set on object 'Object Repository/setting-company/Page_iPropio - Account Settings/input_Invoice Prefix_invoice-prefix'
+
+2019-08-31 06:02:50 - [MESSAGE][PASSED] - Text 'Cash' is set on object 'Object Repository/setting-company/Page_iPropio - Account Settings/input_Invoice Prefix_invoice-prefix'
+
+2019-08-31 06:02:50 - [TEST_STEP][PASSED] - setText(findTestObject("setting-company/Page_iPropio - Account Settings/input_Receipt Prefix_receipt-prefix"), "cash too"): Text 'cash too' is set on object 'Object Repository/setting-company/Page_iPropio - Account Settings/input_Receipt Prefix_receipt-prefix'
+
+2019-08-31 06:03:05 - [MESSAGE][PASSED] - Text 'cash too' is set on object 'Object Repository/setting-company/Page_iPropio - Account Settings/input_Receipt Prefix_receipt-prefix'
+
+2019-08-31 06:03:05 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-08-31 06:03:07 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-08-31 06:03:07 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2019-08-31 06:03:13 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/refqi/git/otomasiterjadwal/ipropio/Reports/IP-026 ( Setting )/20190831_055827/1567206187765.png]]
+
+2019-08-31 06:03:13 - [TEST_STEP][PASSED] - click(findTestObject("setting-company/button_Update Settings")): Object: 'Object Repository/setting-company/button_Update Settings' is clicked on
+
+2019-08-31 06:03:23 - [MESSAGE][PASSED] - Object: 'Object Repository/setting-company/button_Update Settings' is clicked on
+
+2019-08-31 06:03:23 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2019-08-31 06:03:28 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/refqi/git/otomasiterjadwal/ipropio/Reports/IP-026 ( Setting )/20190831_055827/1567206203164.png]]</system-out>
+            <system-err></system-err>
+        </testcase>
+        <system-out>2019-08-31 05:58:48 - [TEST_SUITE][INCOMPLETE] - IP-026 ( Setting ): null</system-out>
+        <system-err>2019-08-31 05:58:48 - [TEST_SUITE][INCOMPLETE] - IP-026 ( Setting ): null</system-err>
+    </testsuite>
+</testsuites>

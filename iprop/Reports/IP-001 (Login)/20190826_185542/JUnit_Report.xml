@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="IP-001 (Login)" time="102" tests="1" failures="0" errors="0">
+   <testsuite name="IP-001 (Login)" tests="1" failures="0" errors="0" time="102" timestamp="2019-08-26 18:55:51" hostname="refqi - 10.250.250.58" id="Test Suites/IP-001 (Login)">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/refqi/git/otomasiterjadwal/ipropio/Reports/IP-001 (Login)/20190826_185542"/>
+         <property name="logFiles" value="/Users/refqi/git/otomasiterjadwal/ipropio/Reports/IP-001 (Login)/20190826_185542/execution0.log"/>
+         <property name="attachments" value="/Users/refqi/Documents/webippro/4.png, /Users/refqi/Documents/webippro/5.png, /Users/refqi/Documents/webippro/7.png"/>
+         <property name="hostName" value="refqi - 10.250.250.58"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+         <property name="browser" value="Chrome 76.0.3809.100"/>
+         <property name="hostAddress" value="10.250.250.58"/>
+         <property name="sessionId" value="6a307b0e7d76d289b43c239a5a5f9a06"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/IP-001 (Login)" classname="Test Cases/IP-001 (Login)" status="PASSED">
+         <system-out><![CDATA[2019-08-26 18:55:52 - [TEST_CASE][PASSED] - Test Cases/IP-001 (Login): Test Cases/IP-001 (Login)
+
+2019-08-26 18:55:52 - [TEST_STEP][PASSED] - openBrowser("http://kamisa.web.iprop-dev.com/login"): Browser is opened with url: 'http://kamisa.web.iprop-dev.com/login'
+
+2019-08-26 18:55:53 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-08-26 18:55:53 - [MESSAGE][INFO] - Action delay is set to 5 seconds
+
+2019-08-26 18:56:13 - [MESSAGE][PASSED] - Browser is opened with url: 'http://kamisa.web.iprop-dev.com/login'
+
+2019-08-26 18:56:13 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-08-26 18:56:14 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-08-26 18:56:14 - [TEST_STEP][PASSED] - setText(findTestObject("Page_iPropio - Login/input_Email_email"), "didinonpqcms@gmail.com"): Text 'didinonpqcms@gmail.com' is set on object 'Object Repository/Page_iPropio - Login/input_Email_email'
+
+2019-08-26 18:56:36 - [MESSAGE][PASSED] - Text 'didinonpqcms@gmail.com' is set on object 'Object Repository/Page_iPropio - Login/input_Email_email'
+
+2019-08-26 18:56:36 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-08-26 18:56:37 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-08-26 18:56:37 - [TEST_STEP][PASSED] - takeScreenshot("/Users/refqi/Documents/webippro/4.png"): Taking screenshot successfully
+
+2019-08-26 18:56:43 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/refqi/Documents/webippro/4.png]]
+
+2019-08-26 18:56:43 - [TEST_STEP][PASSED] - setText(findTestObject("Page_iPropio - Login/input_Password_password"), "testing12345"): Text 'testing12345' is set on object 'Object Repository/Page_iPropio - Login/input_Password_password'
+
+2019-08-26 18:57:04 - [MESSAGE][PASSED] - Text 'testing12345' is set on object 'Object Repository/Page_iPropio - Login/input_Password_password'
+
+2019-08-26 18:57:04 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-08-26 18:57:05 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-08-26 18:57:05 - [TEST_STEP][PASSED] - takeScreenshot("/Users/refqi/Documents/webippro/5.png"): Taking screenshot successfully
+
+2019-08-26 18:57:11 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/refqi/Documents/webippro/5.png]]
+
+2019-08-26 18:57:11 - [TEST_STEP][PASSED] - click(findTestObject("Page_iPropio - Login/button_Login Now")): Object: 'Object Repository/Page_iPropio - Login/button_Login Now' is clicked on
+
+2019-08-26 18:57:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_iPropio - Login/button_Login Now' is clicked on
+
+2019-08-26 18:57:21 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-08-26 18:57:22 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-08-26 18:57:22 - [TEST_STEP][PASSED] - takeScreenshot("/Users/refqi/Documents/webippro/7.png"): Taking screenshot successfully
+
+2019-08-26 18:57:28 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/refqi/Documents/webippro/7.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-08-26 18:55:51 - [TEST_SUITE][PASSED] - IP-001 (Login): Test Cases/IP-001 (Login)]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

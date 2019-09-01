@@ -1,0 +1,25 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+IP-026 ( Setting ),Chrome 76.0.3809.100,,,2019-08-31 05:58:48,2019-08-31 06:03:28,4m - 40.221s,INCOMPLETE
+,,,,,,,
+Test Cases/IP-026 ( Setting),Chrome 76.0.3809.100,,,2019-08-31 05:58:48,2019-08-31 06:03:28,4m - 39.771s,PASSED
+"callTestCase(findTestCase(""IP-001 (Login)""), [""Email"":""aaa@gmail.com"", ""Password"":""123445656""], STOP_ON_FAILURE)",Chrome 76.0.3809.100,,,2019-08-31 05:58:49,2019-08-31 06:00:13,1m - 24.071s,PASSED
+"click(findTestObject(""setting-company/Page_iPropio - Dashboard/div_Settings""))",Chrome 76.0.3809.100,,,2019-08-31 06:00:13,2019-08-31 06:00:23,10.116s,PASSED
+"click(findTestObject(""setting-company/Page_iPropio - Dashboard/a_Account Settings""))",Chrome 76.0.3809.100,,,2019-08-31 06:00:23,2019-08-31 06:00:33,10.131s,PASSED
+"click(findTestObject(""setting-company/Page_iPropio - Account Settings/input_May_vs__search""))",Chrome 76.0.3809.100,,,2019-08-31 06:00:33,2019-08-31 06:00:43,10.182s,PASSED
+"click(findTestObject(""setting-company/Page_iPropio - Account Settings/li_May""))",Chrome 76.0.3809.100,,,2019-08-31 06:00:43,2019-08-31 06:00:53,10.111s,PASSED
+"click(findTestObject(""setting-company/Page_iPropio - Account Settings/input_AfricaLagos_vs__search""))",Chrome 76.0.3809.100,,,2019-08-31 06:00:53,2019-08-31 06:01:03,10.174s,PASSED
+"click(findTestObject(""setting-company/Page_iPropio - Account Settings/li_AfricaLagos""))",Chrome 76.0.3809.100,,,2019-08-31 06:01:03,2019-08-31 06:01:13,10.116s,PASSED
+"click(findTestObject(""setting-company/Page_iPropio - Account Settings/input_DD-MM-YYYY_vs__search""))",Chrome 76.0.3809.100,,,2019-08-31 06:01:13,2019-08-31 06:01:24,10.119s,PASSED
+"click(findTestObject(""setting-company/Page_iPropio - Account Settings/li_DD-MM-YYYY""))",Chrome 76.0.3809.100,,,2019-08-31 06:01:24,2019-08-31 06:01:34,10.147s,PASSED
+"click(findTestObject(""setting-company/Page_iPropio - Account Settings/input_Armenian dram (AMD)_vs__search""))",Chrome 76.0.3809.100,,,2019-08-31 06:01:34,2019-08-31 06:01:44,10.129s,PASSED
+"click(findTestObject(""setting-company/Page_iPropio - Account Settings/li_Armenian dram (AMD)""))",Chrome 76.0.3809.100,,,2019-08-31 06:01:44,2019-08-31 06:01:54,10.190s,PASSED
+"click(findTestObject(""setting-company/Page_iPropio - Account Settings/input_First Name Last Name_vs__search""))",Chrome 76.0.3809.100,,,2019-08-31 06:01:54,2019-08-31 06:02:04,10.116s,PASSED
+"click(findTestObject(""setting-company/Page_iPropio - Account Settings/li_First Name Last Name""))",Chrome 76.0.3809.100,,,2019-08-31 06:02:04,2019-08-31 06:02:14,10.115s,PASSED
+"click(findTestObject(""setting-company/Page_iPropio - Account Settings/input_Monday_vs__search""))",Chrome 76.0.3809.100,,,2019-08-31 06:02:14,2019-08-31 06:02:24,10.117s,PASSED
+"click(findTestObject(""setting-company/Page_iPropio - Account Settings/li_Monday""))",Chrome 76.0.3809.100,,,2019-08-31 06:02:24,2019-08-31 06:02:35,10.147s,PASSED
+"setText(findTestObject(""setting-company/Page_iPropio - Account Settings/input_Invoice Prefix_invoice-prefix""), ""Cash"")",Chrome 76.0.3809.100,,,2019-08-31 06:02:35,2019-08-31 06:02:50,15.242s,PASSED
+"setText(findTestObject(""setting-company/Page_iPropio - Account Settings/input_Receipt Prefix_receipt-prefix""), ""cash too"")",Chrome 76.0.3809.100,,,2019-08-31 06:02:50,2019-08-31 06:03:05,15.404s,PASSED
+delay(2),Chrome 76.0.3809.100,,,2019-08-31 06:03:05,2019-08-31 06:03:07,2.005s,PASSED
+takeScreenshot(),Chrome 76.0.3809.100,,,2019-08-31 06:03:07,2019-08-31 06:03:13,5.315s,PASSED
+"click(findTestObject(""setting-company/button_Update Settings""))",Chrome 76.0.3809.100,,,2019-08-31 06:03:13,2019-08-31 06:03:23,10.110s,PASSED
+takeScreenshot(),Chrome 76.0.3809.100,,,2019-08-31 06:03:23,2019-08-31 06:03:28,5.265s,PASSED

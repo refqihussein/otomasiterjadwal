@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Go to Resident and Property
+
+Click button + Add new on the right side
+
+Fill field Property Streets
+
+Click button create
+
+Click button edit
+
+Change field property street
+
+Click update
+
+If property street is not field, then notify &quot;The property street field is required.&quot;
+
+If property street changed to an existing name, then notify &quot;&quot;
+
+Click button delete
+
+Click ok, then property type will delete from list
+
+If click ok and property still in using, then notify &quot;Property type still in used in property&quot;
+
+Click cancel, then the property still on list</description>
+   <name>IP-014 ( Property Street )</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a6a35caa-81f5-4124-8099-663db7404bfd</testCaseGuid>
+</TestCaseEntity>

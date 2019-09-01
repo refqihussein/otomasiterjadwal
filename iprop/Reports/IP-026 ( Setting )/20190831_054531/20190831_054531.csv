@@ -1,0 +1,13 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+IP-026 ( Setting ),Chrome 76.0.3809.100,,,2019-08-31 05:45:49,2019-08-31 05:49:01,3m - 11.360s,INCOMPLETE
+,,,,,,,
+Test Cases/IP-026 ( Setting),Chrome 76.0.3809.100,,,2019-08-31 05:45:50,2019-08-31 05:49:01,3m - 10.865s,FAILED
+"callTestCase(findTestCase(""IP-001 (Login)""), [""Email"":""aaa@gmail.com"", ""Password"":""123445656""], STOP_ON_FAILURE)",Chrome 76.0.3809.100,,,2019-08-31 05:45:50,2019-08-31 05:47:11,1m - 21.019s,PASSED
+"click(findTestObject(""setting-company/Page_iPropio - Dashboard/div_Settings""))",Chrome 76.0.3809.100,,,2019-08-31 05:47:11,2019-08-31 05:47:21,10.138s,PASSED
+"click(findTestObject(""setting-company/Page_iPropio - Dashboard/a_Account Settings""))",Chrome 76.0.3809.100,,,2019-08-31 05:47:21,2019-08-31 05:47:31,10.121s,PASSED
+"click(findTestObject(""setting-company/Page_iPropio - Account Settings/input_May_vs__search""))",Chrome 76.0.3809.100,,,2019-08-31 05:47:31,2019-08-31 05:47:42,10.135s,PASSED
+"click(findTestObject(""setting-company/Page_iPropio - Account Settings/li_May""))",Chrome 76.0.3809.100,,,2019-08-31 05:47:42,2019-08-31 05:47:52,10.088s,PASSED
+"click(findTestObject(""setting-company/Page_iPropio - Account Settings/input_AfricaLagos_vs__search""))",Chrome 76.0.3809.100,,,2019-08-31 05:47:52,2019-08-31 05:48:02,10.122s,PASSED
+"click(findTestObject(""setting-company/Page_iPropio - Account Settings/li_AfricaLagos""))",Chrome 76.0.3809.100,,,2019-08-31 05:48:02,2019-08-31 05:48:12,10.097s,PASSED
+"click(findTestObject(""setting-company/Page_iPropio - Account Settings/input_DD-MM-YYYY_vs__search""))",Chrome 76.0.3809.100,,,2019-08-31 05:48:12,2019-08-31 05:48:22,10.110s,PASSED
+"click(findTestObject(""setting-company/Page_iPropio - Account Settings/li_DD-MM-YYYY""))",Chrome 76.0.3809.100,,,2019-08-31 05:48:22,2019-08-31 05:49:01,38.543s,FAILED

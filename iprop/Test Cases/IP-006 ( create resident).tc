@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>-user tenant
+-create resident</description>
+   <name>IP-006 ( create resident)</name>
+   <tag>@didinpqcms@gmail.cpm</tag>
+   <comment></comment>
+   <testCaseGuid>746dd480-9788-4a28-8388-ddedaa5f7440</testCaseGuid>
+</TestCaseEntity>

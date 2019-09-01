@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testsuites name="IP-026 ( Setting )" time="191" tests="0" failures="1" errors="0">
+    <testsuite name="IP-026 ( Setting )" tests="0" failures="1" errors="0" time="191" timestamp="2019-08-31 05:45:49" hostname="refqi - 172.20.10.7" id="Test Suites/IP-026 ( Setting )">
+        <properties>
+            <property name="deviceName" value=""/>
+            <property name="devicePlatform" value=""/>
+            <property name="logFolder" value="/Users/refqi/git/otomasiterjadwal/ipropio/Reports/IP-026 ( Setting )/20190831_054531"/>
+            <property name="logFiles" value="/Users/refqi/git/otomasiterjadwal/ipropio/Reports/IP-026 ( Setting )/20190831_054531/execution0.log"/>
+            <property name="attachments" value="/Users/refqi/Documents/webippro/4.png, /Users/refqi/Documents/webippro/5.png, /Users/refqi/Documents/webippro/7.png, /Users/refqi/git/otomasiterjadwal/ipropio/Reports/IP-026 ( Setting )/20190831_054531/1567205335784.png"/>
+            <property name="hostName" value="refqi - 172.20.10.7"/>
+            <property name="os" value="Mac OS X 64bit"/>
+            <property name="katalonVersion" value="6.2.1.2"/>
+            <property name="browser" value="Chrome 76.0.3809.100"/>
+            <property name="hostAddress" value="172.20.10.7"/>
+            <property name="sessionId" value="dc190cdb976bb011876e9b30fba576c0"/>
+            <property name="seleniumVersion" value="3.141.59"/>
+            <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+            <property name="platform" value="Mac OS X"/>
+        </properties>
+        <testcase name="Test Cases/IP-026 ( Setting)" classname="Test Cases/IP-026 ( Setting)" status="FAILED">
+            <failure type="FAILED" message="Test Cases/IP-026 ( Setting) FAILED.&#xA;Reason:&#xA;com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/setting-company/Page_iPropio - Account Settings/li_DD-MM-YYYY'&#xA;&#x9;at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xA;&#x9;at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xA;&#x9;at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)&#xA;&#x9;at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)&#xA;&#x9;at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)&#xA;&#x9;at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)&#xA;&#x9;at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)&#xA;&#x9;at IP-026 ( Setting).run(IP-026 ( Setting):32)&#xA;&#x9;at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xA;&#x9;at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:133)&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:116)&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:83)&#xA;&#x9;at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xA;&#x9;at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xA;&#x9;at TempTestSuite1567205146274.run(TempTestSuite1567205146274.groovy:35)&#xA;Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/setting-company/Page_iPropio - Account Settings/li_DD-MM-YYYY' located by 'By.xpath: //div[@id='date-format']/ul/li[2]' not found&#xA;&#x9;at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1097)&#xA;&#x9;at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)&#xA;&#x9;at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)&#xA;&#x9;at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:77)&#xA;&#x9;at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)&#xA;&#x9;at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xA;&#x9;... 19 more&#xA;"/>
+            <system-out>2019-08-31 05:45:50 - [TEST_CASE][FAILED] - Test Cases/IP-026 ( Setting): Test Cases/IP-026 ( Setting) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/setting-company/Page_iPropio - Account Settings/li_DD-MM-YYYY'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at IP-026 ( Setting).run(IP-026 ( Setting):32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:133)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:116)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:83)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1567205146274.run(TempTestSuite1567205146274.groovy:35)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/setting-company/Page_iPropio - Account Settings/li_DD-MM-YYYY' located by 'By.xpath: //div[@id='date-format']/ul/li[2]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1097)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2019-08-31 05:45:50 - [TEST_STEP][PASSED] - callTestCase(findTestCase("IP-001 (Login)"), ["Email":"aaa@gmail.com", "Password":"123445656"], STOP_ON_FAILURE): Call Test Case 'Test Cases/IP-001 (Login)' successfully
+
+2019-08-31 05:45:51 - [TEST_CASE][PASSED] - Test Cases/IP-001 (Login): Test Cases/IP-001 (Login)
+
+2019-08-31 05:45:51 - [TEST_STEP][PASSED] - openBrowser("http://kamisa.web.iprop-dev.com/login"): Browser is opened with url: 'http://kamisa.web.iprop-dev.com/login'
+
+2019-08-31 05:45:51 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-08-31 05:45:51 - [MESSAGE][INFO] - Action delay is set to 5 seconds
+
+2019-08-31 05:46:10 - [MESSAGE][PASSED] - Browser is opened with url: 'http://kamisa.web.iprop-dev.com/login'
+
+2019-08-31 05:46:10 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-08-31 05:46:11 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-08-31 05:46:11 - [TEST_STEP][PASSED] - setText(findTestObject("Page_iPropio - Login/input_Email_email"), "didinonpqcms@gmail.com"): Text 'didinonpqcms@gmail.com' is set on object 'Object Repository/Page_iPropio - Login/input_Email_email'
+
+2019-08-31 05:46:27 - [MESSAGE][PASSED] - Text 'didinonpqcms@gmail.com' is set on object 'Object Repository/Page_iPropio - Login/input_Email_email'
+
+2019-08-31 05:46:27 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-08-31 05:46:28 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-08-31 05:46:28 - [TEST_STEP][PASSED] - takeScreenshot("/Users/refqi/Documents/webippro/4.png"): Taking screenshot successfully
+
+2019-08-31 05:46:33 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/refqi/Documents/webippro/4.png]]
+
+2019-08-31 05:46:33 - [TEST_STEP][PASSED] - setText(findTestObject("Page_iPropio - Login/input_Password_password"), "testing12345"): Text 'testing12345' is set on object 'Object Repository/Page_iPropio - Login/input_Password_password'
+
+2019-08-31 05:46:48 - [MESSAGE][PASSED] - Text 'testing12345' is set on object 'Object Repository/Page_iPropio - Login/input_Password_password'
+
+2019-08-31 05:46:48 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-08-31 05:46:49 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-08-31 05:46:49 - [TEST_STEP][PASSED] - takeScreenshot("/Users/refqi/Documents/webippro/5.png"): Taking screenshot successfully
+
+2019-08-31 05:46:55 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/refqi/Documents/webippro/5.png]]
+
+2019-08-31 05:46:55 - [TEST_STEP][PASSED] - click(findTestObject("Page_iPropio - Login/button_Login Now")): Object: 'Object Repository/Page_iPropio - Login/button_Login Now' is clicked on
+
+2019-08-31 05:47:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_iPropio - Login/button_Login Now' is clicked on
+
+2019-08-31 05:47:05 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-08-31 05:47:06 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-08-31 05:47:06 - [TEST_STEP][PASSED] - takeScreenshot("/Users/refqi/Documents/webippro/7.png"): Taking screenshot successfully
+
+2019-08-31 05:47:11 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/refqi/Documents/webippro/7.png]]
+
+2019-08-31 05:47:11 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/IP-001 (Login)' successfully
+
+2019-08-31 05:47:11 - [TEST_STEP][PASSED] - click(findTestObject("setting-company/Page_iPropio - Dashboard/div_Settings")): Object: 'Object Repository/setting-company/Page_iPropio - Dashboard/div_Settings' is clicked on
+
+2019-08-31 05:47:21 - [MESSAGE][PASSED] - Object: 'Object Repository/setting-company/Page_iPropio - Dashboard/div_Settings' is clicked on
+
+2019-08-31 05:47:21 - [TEST_STEP][PASSED] - click(findTestObject("setting-company/Page_iPropio - Dashboard/a_Account Settings")): Object: 'Object Repository/setting-company/Page_iPropio - Dashboard/a_Account Settings' is clicked on
+
+2019-08-31 05:47:31 - [MESSAGE][PASSED] - Object: 'Object Repository/setting-company/Page_iPropio - Dashboard/a_Account Settings' is clicked on
+
+2019-08-31 05:47:31 - [TEST_STEP][PASSED] - click(findTestObject("setting-company/Page_iPropio - Account Settings/input_May_vs__search")): Object: 'Object Repository/setting-company/Page_iPropio - Account Settings/input_May_vs__search' is clicked on
+
+2019-08-31 05:47:42 - [MESSAGE][PASSED] - Object: 'Object Repository/setting-company/Page_iPropio - Account Settings/input_May_vs__search' is clicked on
+
+2019-08-31 05:47:42 - [TEST_STEP][PASSED] - click(findTestObject("setting-company/Page_iPropio - Account Settings/li_May")): Object: 'Object Repository/setting-company/Page_iPropio - Account Settings/li_May' is clicked on
+
+2019-08-31 05:47:52 - [MESSAGE][PASSED] - Object: 'Object Repository/setting-company/Page_iPropio - Account Settings/li_May' is clicked on
+
+2019-08-31 05:47:52 - [TEST_STEP][PASSED] - click(findTestObject("setting-company/Page_iPropio - Account Settings/input_AfricaLagos_vs__search")): Object: 'Object Repository/setting-company/Page_iPropio - Account Settings/input_AfricaLagos_vs__search' is clicked on
+
+2019-08-31 05:48:02 - [MESSAGE][PASSED] - Object: 'Object Repository/setting-company/Page_iPropio - Account Settings/input_AfricaLagos_vs__search' is clicked on
+
+2019-08-31 05:48:02 - [TEST_STEP][PASSED] - click(findTestObject("setting-company/Page_iPropio - Account Settings/li_AfricaLagos")): Object: 'Object Repository/setting-company/Page_iPropio - Account Settings/li_AfricaLagos' is clicked on
+
+2019-08-31 05:48:12 - [MESSAGE][PASSED] - Object: 'Object Repository/setting-company/Page_iPropio - Account Settings/li_AfricaLagos' is clicked on
+
+2019-08-31 05:48:12 - [TEST_STEP][PASSED] - click(findTestObject("setting-company/Page_iPropio - Account Settings/input_DD-MM-YYYY_vs__search")): Object: 'Object Repository/setting-company/Page_iPropio - Account Settings/input_DD-MM-YYYY_vs__search' is clicked on
+
+2019-08-31 05:48:22 - [MESSAGE][PASSED] - Object: 'Object Repository/setting-company/Page_iPropio - Account Settings/input_DD-MM-YYYY_vs__search' is clicked on
+
+2019-08-31 05:48:22 - [TEST_STEP][FAILED] - click(findTestObject("setting-company/Page_iPropio - Account Settings/li_DD-MM-YYYY")): Unable to click on object 'Object Repository/setting-company/Page_iPropio - Account Settings/li_DD-MM-YYYY' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/setting-company/Page_iPropio - Account Settings/li_DD-MM-YYYY'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at IP-026 ( Setting).run(IP-026 ( Setting):32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:133)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:116)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:83)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1567205146274.run(TempTestSuite1567205146274.groovy:35)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/setting-company/Page_iPropio - Account Settings/li_DD-MM-YYYY' located by 'By.xpath: //div[@id='date-format']/ul/li[2]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1097)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Script1567203613715.run(Script1567203613715.groovy:32)
+	... 13 more
+)
+
+2019-08-31 05:48:55 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='date-format']/ul/li[2]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-08-31 05:49:01 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/setting-company/Page_iPropio - Account Settings/li_DD-MM-YYYY' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/setting-company/Page_iPropio - Account Settings/li_DD-MM-YYYY'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at IP-026 ( Setting).run(IP-026 ( Setting):32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:133)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:116)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:83)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1567205146274.run(TempTestSuite1567205146274.groovy:35)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/setting-company/Page_iPropio - Account Settings/li_DD-MM-YYYY' located by 'By.xpath: //div[@id='date-format']/ul/li[2]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1097)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Script1567203613715.run(Script1567203613715.groovy:32)
+	... 13 more
+)
+[[ATTACHMENT|/Users/refqi/git/otomasiterjadwal/ipropio/Reports/IP-026 ( Setting )/20190831_054531/1567205335784.png]]</system-out>
+            <system-err>2019-08-31 05:45:50 - [TEST_CASE][FAILED] - Test Cases/IP-026 ( Setting): Test Cases/IP-026 ( Setting) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/setting-company/Page_iPropio - Account Settings/li_DD-MM-YYYY'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at IP-026 ( Setting).run(IP-026 ( Setting):32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:133)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:116)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:83)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1567205146274.run(TempTestSuite1567205146274.groovy:35)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/setting-company/Page_iPropio - Account Settings/li_DD-MM-YYYY' located by 'By.xpath: //div[@id='date-format']/ul/li[2]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1097)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more</system-err>
+        </testcase>
+        <system-out>2019-08-31 05:45:49 - [TEST_SUITE][INCOMPLETE] - IP-026 ( Setting ): null</system-out>
+        <system-err>2019-08-31 05:45:49 - [TEST_SUITE][INCOMPLETE] - IP-026 ( Setting ): null</system-err>
+    </testsuite>
+</testsuites>
